@@ -1780,15 +1780,4 @@
   <FormXml />
   <SavedQueries />
   <RibbonDiffXml />
-  <Strings>
-    <Strings ResourceKey="Error_Message_0x80040508">
-      <String languagecode="1033" Comment="">A parent organization or parent contact is present.</String>
-    </Strings>
-    <Strings ResourceKey="MA.CampaignResponse.Dialogs.conv_response.aspx_Customer_Description">
-      <String languagecode="1033" Comment="">Select an organization or contact</String>
-    </Strings>
-    <Strings ResourceKey="Sales_DetailedDesc">
-      <String languagecode="1033" Comment="">Access organization, contacts, and other business records</String>
-    </Strings>
-  </Strings>
 </Entity>

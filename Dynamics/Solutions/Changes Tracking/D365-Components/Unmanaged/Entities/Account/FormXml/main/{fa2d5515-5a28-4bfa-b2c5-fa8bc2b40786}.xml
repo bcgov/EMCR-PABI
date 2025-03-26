@@ -156,7 +156,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{8b1d7a7a-972c-78c1-d287-82ec5b33d167}" showlabel="false" colspan="2" auto="false" rowspan="12" labelid="{d18348ef-b00e-4bc8-bc84-531fdf6bd958}">
+                      <cell id="{8b1d7a7a-972c-78c1-d287-82ec5b33d167}" showlabel="false" colspan="2" auto="false" rowspan="13" labelid="{d18348ef-b00e-4bc8-bc84-531fdf6bd958}">
                         <labels>
                           <label description="Contacts In Discipline" languagecode="1033" />
                         </labels>
@@ -170,7 +170,7 @@
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
                             <ViewIds>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
+                            <EnableJumpBar>true</EnableJumpBar>
                             <ChartGridMode>Grid</ChartGridMode>
                             <VisualizationId />
                             <IsUserChart>false</IsUserChart>
@@ -181,6 +181,7 @@
                         </control>
                       </cell>
                     </row>
+                    <row />
                     <row />
                     <row />
                     <row />
@@ -1140,7 +1141,7 @@
               <EnableQuickFind>false</EnableQuickFind>
               <EnableViewPicker>false</EnableViewPicker>
               <ViewIds>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
-              <EnableJumpBar>false</EnableJumpBar>
+              <EnableJumpBar>true</EnableJumpBar>
               <ChartGridMode>Grid</ChartGridMode>
               <VisualizationId />
               <IsUserChart>false</IsUserChart>
@@ -1159,7 +1160,7 @@
               <EnableQuickFind>false</EnableQuickFind>
               <EnableViewPicker>false</EnableViewPicker>
               <ViewIds>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
-              <EnableJumpBar>false</EnableJumpBar>
+              <EnableJumpBar>true</EnableJumpBar>
               <ChartGridMode>Grid</ChartGridMode>
               <VisualizationId />
               <IsUserChart>false</IsUserChart>
@@ -1216,8 +1217,7 @@
         </event>
       </events>
       <DisplayConditions FallbackForm="true" Order="6">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Everyone />
       </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>

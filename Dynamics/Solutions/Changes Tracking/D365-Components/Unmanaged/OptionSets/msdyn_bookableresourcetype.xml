@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msdyn_bookableresourcetype" localizedName="Bookable Resource Type" description="Select whether the resource is an account, contact, user, equipment, crew, facility or a pool of resources." unmodified="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></optionset>

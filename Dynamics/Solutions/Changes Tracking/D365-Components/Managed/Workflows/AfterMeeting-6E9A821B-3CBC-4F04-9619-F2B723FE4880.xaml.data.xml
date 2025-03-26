@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{6e9a821b-3cbc-4f04-9619-f2b723fe4880}" Name="After Meeting" Description="Use this task flow to update your appointment and related records after your meeting is over." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/AfterMeeting-6E9A821B-3CBC-4F04-9619-F2B723FE4880.xaml</XamlFileName>
+  <ImageFileName>/EntityImages/AfterMeeting-6E9A821B-3CBC-4F04-9619-F2B723FE4880.jpg</ImageFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>1</processorder>
+  <processroleassignment>&lt;DisplayConditions /&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>after_meeting</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <BusinessProcessType>1</BusinessProcessType>
+  <FormId>{7f58467b-ab43-447c-ab95-29deea3b1e35}</FormId>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Appointment</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="After Meeting" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Use this task flow to update your appointment and related records after your meeting is over." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{81aacc7d-7572-4586-b1cf-e35da504b245}" />
+    <steplabels id="{fc1422f4-4758-48bb-bbef-3a3a27d30045}" />
+    <steplabels id="{6f320009-a16e-4853-ac36-ef27b6ae2ac4}" />
+    <steplabels id="{182a5523-77b9-ae00-7abd-13dc70c28698}" />
+    <steplabels id="{bcbd707b-d57d-95b6-caae-db6473edeb39}" />
+    <steplabels id="{7e150b5a-cd70-7418-7478-869c128526b1}" />
+    <steplabels id="{0cb180d1-d4c2-7511-76ab-a8dceed853bb}" />
+    <steplabels id="{463062e6-44fa-4d29-a402-577eb8bea0cb}" />
+    <steplabels id="{3d5265a5-e0ec-4f25-9ca3-f830aa3dc542}" />
+    <steplabels id="{205a04bd-c898-460b-a39b-40a4c2dfba56}" />
+    <steplabels id="{21b4a47c-e0cd-448e-8f29-8b9b9c0dd4f2}" />
+    <steplabels id="{8e8c9dd7-2b8d-8b98-2c5b-2edb87d5b0d5}" />
+    <steplabels id="{63ed54db-9a77-4f42-8759-68a4e9a2f4a2}" />
+    <steplabels id="{716e7dc6-62d8-8c16-0012-a014134c7ae9}" />
+    <steplabels id="{0cb88611-d025-4018-90b4-cde45bd8273d}" />
+    <steplabels id="{9ea69e65-cd0e-5e26-41a0-53539c05600b}" />
+    <steplabels id="{39d65739-aa43-4299-4608-67648137be03}" />
+    <steplabels id="{23c160ca-94ed-d3e2-8214-621181d0a0d0}" />
+    <steplabels id="{79ec8ed6-84c6-d243-e44c-560b9d0a7260}" />
+    <steplabels id="{151952c5-c3d4-908b-cd6d-46bb2eb254e8}" />
+    <steplabels id="{7e527c78-a302-429c-a4a4-7d34eed9da2d}" />
+    <steplabels id="{99377c39-3c85-badd-c683-ecb808423aa1}" />
+    <steplabels id="{a5dbe426-a5c4-4487-8875-4952f953a4f5}" />
+    <steplabels id="{21527a5c-c225-76b3-63c2-c8610486e441}" />
+    <steplabels id="{578d310f-e33a-4587-9502-e5504da679ff}" />
+    <steplabels id="{6732ed53-23e4-27d8-6185-2b49ebce2948}" />
+    <steplabels id="{e3aab4cc-909c-4df3-b4ee-5d8a6b9558db}" />
+    <steplabels id="{636e4dd0-aa55-43e2-bd59-6735cb459ee1}" />
+    <steplabels id="{063ce91a-0a32-0916-5775-c9e6717d0a13}" />
+    <steplabels id="{cac4eebd-7b6d-cbaa-948b-7b78162d7424}" />
+    <steplabels id="{a25d67ad-0eb3-4ff5-a147-9b3660da1811}" />
+    <steplabels id="{b37c6014-b59b-7bc0-6181-a74cec188709}" />
+    <steplabels id="{68292ef0-e84a-4d07-9a26-22f689300d36}" />
+    <steplabels id="{c1b9ed13-ce85-386c-e48a-1eb243015a03}" />
+    <steplabels id="{3cf2e5fe-cea8-4b02-85c9-d1737fe33a23}" />
+    <steplabels id="{2e5423a1-edb8-dde3-8c0c-5cd9eae39eb1}" />
+    <steplabels id="{63d97220-369f-4ac6-bdd4-55035d909d94}" />
+    <steplabels id="{d2d16233-0bc3-1c34-3e2a-ac0401896d02}" />
+    <steplabels id="{42d227b4-2c75-4bcf-967d-a94c87ab0a25}" />
+    <steplabels id="{dfa7fcaa-9be9-428f-91de-1a5231f816aa}" />
+    <steplabels id="{8eda776c-6a9e-b18a-c71c-90ec569dca66}" />
+    <steplabels id="{dd1943d4-9cbe-21a6-e935-a78bcc538111}" />
+    <steplabels id="{3e0cc785-3a57-48d2-93c5-8570b5eab9df}" />
+    <steplabels id="{15741345-c4a8-2719-c1ad-a0114a7e1008}" />
+    <steplabels id="{5c7e3a4e-ea22-3989-78a0-a4cdc637b913}" />
+    <steplabels id="{0b041997-6b8b-1137-497e-a16580653983}" />
+    <steplabels id="{dcd0c3da-1f72-49fe-b99b-abf6ef78532c}" />
+    <steplabels id="{365c2d63-0490-79e2-7cd6-5ea33a6c5cca}" />
+    <steplabels id="{309182f5-5a22-417b-9240-28b904bfcf36}" />
+    <steplabels id="{73d31d23-4292-963c-0a47-b762d431c6d9}" />
+    <steplabels id="{5e3825c5-c38c-4244-b1bf-bdbc78cad59b}" />
+    <steplabels id="{8507da4e-cee5-b83c-535c-60812b1bbbb6}" />
+    <steplabels id="{bb9c9175-96e0-bea8-976b-3e227e1deea2}" />
+    <steplabels id="{76ae7cee-e3a3-93da-25ee-91a30a0d6521}" />
+    <steplabels id="{78681dd4-04b2-5b33-2ee6-4ea25827ea96}" />
+    <steplabels id="{0034eb64-b775-56dd-ca8b-1b4cb9ec560b}" />
+    <steplabels id="{1f58ed20-a9d8-4c46-b033-cc5d9de5ee77}" />
+    <steplabels id="{1d622e67-160c-3a48-0989-ce235997097e}" />
+    <steplabels id="{99d5b1a4-3293-3d8e-2ea2-4a6ee0c2e384}" />
+    <steplabels id="{6a56c764-5515-4d8d-a75d-6d6296e8b7f7}" />
+    <steplabels id="{cc6d9d1c-8431-5b95-3d52-a260a563d30c}" />
+    <steplabels id="{8e8cc57e-3850-abe8-289c-58a990d4535e}" />
+    <steplabels id="{b970c5ed-b893-e2a2-93a8-099a8ec77c0d}" />
+    <steplabels id="{b0403915-c581-b983-441b-81e9315ec48a}" />
+    <steplabels id="{6b539c46-5922-6069-0ac8-6e591ced2853}" />
+    <steplabels id="{5d71290c-9a20-400c-9b91-c2b2789648ef}" />
+    <steplabels id="{d27e8c23-706e-977d-5468-bba063ddcd12}" />
+    <steplabels id="{7a4d0911-538b-4fc4-8ffb-fa8126ad9d38}" />
+    <steplabels id="{64b28176-320d-506e-b52b-90254eb7a2c5}" />
+    <steplabels id="{0a61b0e3-9780-c528-9544-59621a5cbedd}" />
+    <steplabels id="{032b2e52-5a64-c503-07e4-da5b216dbc17}" />
+    <steplabels id="{494ed623-04e3-2424-2b5c-50b998762385}" />
+    <steplabels id="{bc066189-20a8-6bd4-d738-b68d5cc17ee9}" />
+    <steplabels id="{652075a8-4d7b-e66e-5ac0-e1c617a45e79}" />
+    <steplabels id="{5a4bfcde-f31e-4b0f-a378-e703217c61ce}" />
+    <steplabels id="{2cc7c31d-8b7c-8395-ae28-e7945dd75ea2}" />
+    <steplabels id="{7a7bbdae-91c3-794e-b5c2-8353856ac502}" />
+    <steplabels id="{ba00aa36-8d45-40d7-0610-9a7ac3d28b05}" />
+    <steplabels id="{bec60784-6bba-6644-8ae5-c7377c741033}" />
+    <steplabels id="{103907bc-7977-5607-093d-29955e6b9bb5}" />
+  </labels>
+</Workflow>
