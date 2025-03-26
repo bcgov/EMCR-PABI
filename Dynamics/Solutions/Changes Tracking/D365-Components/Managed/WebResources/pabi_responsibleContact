@@ -1,0 +1,119 @@
+// JavaScript source code
+
+var cds;
+let contactDocGridTimerIntervalId;
+(function (cds) {
+    var apps;
+    (function (apps) {
+        var pabiResponsibleContact;
+        (function (pabiResponsibleContact) {
+            function onFormLoad(executionContext) {
+                onFormLoadLocal(executionContext);
+            }
+            pabiResponsibleContact.onFormLoad = onFormLoad;
+
+            var AreaCommunityEntity = "pabi_areacommunity";
+            var RegionEntity = "pabi_region";
+            var AreaCommunityAttribute = "pabi_areacommunityid";
+            var RegionAttribute = "pabi_regionid";
+            function onFormLoadLocal(executionContext) {
+                var formContext = executionContext === null || executionContext === void 0 ? void 0 : executionContext.getFormContext();
+                if (!formContext) {
+                    LoggerInfo("formContext is null");
+                    return;
+                }
+                registerOnAreaCommunityChange(formContext);
+                registerGeneralTabStateChange(executionContext);
+            }
+            function registerOnAreaCommunityChange(formContext) {
+                var areaCommunityAttribute = formContext.getAttribute(AreaCommunityAttribute);
+                if (!areaCommunityAttribute) {
+                    LoggerInfo("Attribute ".concat(AreaCommunityAttribute, " not found"));
+                    return;
+                }
+                areaCommunityAttribute.addOnChange(onChangeAreaCommunity);
+                areaCommunityAttribute.fireOnChange();
+            }
+            function onChangeAreaCommunity(executionContext) {
+                var formContext = executionContext === null || executionContext === void 0 ? void 0 : executionContext.getFormContext();
+                if (!formContext) {
+                    LoggerInfo("formContext is null");
+                    return;
+                }
+                LoggerInfo("onChangeAreaCommunity");
+                var areaCommunity = getAreaCommunity(executionContext);
+                if (!areaCommunity) {
+                    LoggerInfo("Area Community is null");
+                    return;
+                }
+                setRegion(formContext, areaCommunity);
+            }
+            function getAreaCommunity(executionContext) {
+                var formContext = executionContext === null || executionContext === void 0 ? void 0 : executionContext.getFormContext();
+                if (!formContext) {
+                    LoggerInfo("formContext is null");
+                    return null;
+                }
+                var areaCommunityAttribute = executionContext.getEventSource();
+                if (!areaCommunityAttribute) {
+                    LoggerInfo("Attribute ".concat(AreaCommunityAttribute, " not found"));
+                    return null;
+                }
+                var lookupValue = areaCommunityAttribute.getValue();
+                if (!lookupValue) {
+                    LoggerInfo("lookupValue is null for field ".concat(AreaCommunityAttribute));
+                    formContext.getAttribute(RegionAttribute).setValue(null);
+                    return null;
+                }
+                return lookupValue[0].id;
+            }
+            function setRegion(formContext, areaCommunity) {
+                Xrm.WebApi.retrieveRecord(AreaCommunityEntity, areaCommunity, "?$select=_pabi_regionid_value&$expand=pabi_RegionId($select=pabi_name)")
+                    .then(function (result) {
+                        LoggerInfo("Area Community: ".concat(areaCommunity));
+                        var regionId = result._pabi_regionid_value;
+                        var regionName = result.pabi_RegionId.pabi_name;
+                        setLookupValue(formContext, RegionAttribute, {
+                            entityType: RegionEntity,
+                            id: regionId,
+                            name: regionName,
+                        });
+                    }, function (error) {
+                        LoggerError("Error: ".concat(error.message));
+                        formContext.getAttribute(RegionAttribute).setValue(null);
+                    });
+            }
+            function setLookupValue(formContext, fieldName, lookupValue) {
+                if (!formContext) {
+                    LoggerInfo("formContext is null");
+                    return;
+                }
+                if (!lookupValue) {
+                    LoggerInfo("lookupValue is null for field ".concat(fieldName));
+                    return;
+                }
+                formContext.getAttribute(fieldName).setValue([lookupValue]);
+            }
+
+            function registerGeneralTabStateChange(executionContext) {
+                var formContext = executionContext.getFormContext();
+                var tab = formContext.ui.tabs.get("tab_General");
+                if (tab) {
+                    tab.addTabStateChange(function () {
+                        if (tab.getDisplayState() === "expanded") {
+                            formContext.data.refresh(false);
+                        }
+                    });
+                }
+            }
+
+            function LoggerInfo(message) {
+            }
+            function LoggerError(message) {
+                console.error("ResponsibleContactApps: ".concat(message));
+            }
+
+        })(pabiResponsibleContact = apps.pabiResponsibleContact || (apps.pabiResponsibleContact = {}));
+    })(apps = cds.apps || (cds.apps = {}));
+})(cds || (cds = {}));
+//# sourceMappingURL=responsibleContactUpdate.js.map

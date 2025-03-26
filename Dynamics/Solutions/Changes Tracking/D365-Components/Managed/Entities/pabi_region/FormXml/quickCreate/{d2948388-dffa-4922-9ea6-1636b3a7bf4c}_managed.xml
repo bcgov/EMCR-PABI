@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d2948388-dffa-4922-9ea6-1636b3a7bf4c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{6ab9f3e6-4a11-4552-b456-b9465bc0ca07}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{77f343d4-cf6d-4536-9a05-aca5796cd704}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{80aceabe-0d35-a0d2-6a8a-7d9035a43b6d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region Name" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_name" disabled="false" uniqueid="{4d906023-2a7a-b8e9-e30e-6ca5c21cd9d3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2683d935-b1e6-82ee-9d04-0e06a13a4912}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_code" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{ec04eedf-6275-44eb-a35c-8bb67385d950}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{759ad39f-5b7f-46ac-a4ed-2e5b384f8d40}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{dc4e6b4d-a6dc-4914-9c77-66606be6a910}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{973dccdd-ad6d-478e-bea4-233a45f7da87}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="pabi_FormQuickCreateUtil.js" libraryUniqueId="{b97858d8-e7b3-1edc-9abe-d66e4b900e1a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="OpenMainForm" libraryName="pabi_FormQuickCreateUtil.js" handlerUniqueId="{02870d03-9179-b199-c57c-da90e4b4364c}" enabled="true" parameters="&quot;pabi_region&quot;,&quot;C6643ECF-39E7-455C-A106-DF06B57BB14E&quot;" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Region - Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

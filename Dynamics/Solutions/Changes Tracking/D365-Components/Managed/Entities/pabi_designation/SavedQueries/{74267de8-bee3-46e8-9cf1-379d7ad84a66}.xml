@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{74267de8-bee3-46e8-9cf1-379d7ad84a66}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pabi_designationtitle" select="1" icon="1" preview="1">
+        <row name="result" id="pabi_designationid">
+          <cell name="pabi_designationtitle" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pabi_designation">
+          <attribute name="pabi_designationtitle" />
+          <order attribute="pabi_designationtitle" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="pabi_designationtitle" operator="like" value="{0}" />
+          </filter>
+          <attribute name="pabi_designationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Title/Position" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b35fa736-59fa-4a96-925e-67d4133421f7}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{1c885dfc-d175-4f48-b56f-b85209332d8c}" name="tab_1" showlabel="false" labelid="{89cc7950-34a1-4ac3-8b31-f730d8fac2c4}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{acb4221b-32cf-4403-9be2-72b8db1bbb96}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{dd1dfc40-a51c-4faf-ae88-55fed846c717}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9a85ad5-ea19-de48-3747-2b77d7668804}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_contact_priority" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="pabi_contact_priority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28d64a55-b7e0-2975-de91-4bdd50361e29}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{595b4ed9-22cb-412e-12b1-aa629337812b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area/Community" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_areacommunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_areacommunityid" disabled="false" uniqueid="{66b88139-8eab-7227-2c07-6366c75382b4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>true</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{85078ADA-21D1-4DAB-B537-8C3671BEEFA4}</DefaultViewId>
+                            <DependentAttributeType>pabi_region</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{85078ADA-21D1-4DAB-B537-8C3671BEEFA4},{BB9B76F1-767F-44FC-87F4-B1C31C5D20A4}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5bd43119-ec48-16eb-6e3c-63ea67968b87}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_regionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_regionid" disabled="false" uniqueid="{da4dc7ce-ac5c-aa5b-8265-4298039c9d75}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>true</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2B3B85DB-E042-4739-992F-0CBC26CCC141}</DefaultViewId>
+                            <FilterRelationshipName>pabi_region_to_areacommunity</FilterRelationshipName>
+                            <DependentAttributeName>pabi_responsiblecontactinregionsandmunicipal.pabi_areacommunityid</DependentAttributeName>
+                            <DependentAttributeType>pabi_areacommunity</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b73d62c8-cc48-cc50-dcab-d71bedd6904c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Discipline/Organization" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_disciplineid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_disciplineid" disabled="false" uniqueid="{d3ace83d-8652-4637-2423-c40e3823b458}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8c6d3da-12c1-da52-609c-5ed1d9d1d553}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Office Phone" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_officephone" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="pabi_officephone" disabled="false" uniqueid="{8aa749ad-61a2-ee6e-b369-1c35ec763985}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0c9c452-6c92-c40d-ed54-3996cd541138}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cell" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_cell" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="pabi_cell" disabled="false" uniqueid="{ddba994b-40bb-0661-1088-3b1b8381a154}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da17ce36-0615-82b0-de65-9b946d6a50d3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Alternate Phone" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_alternatephone" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="pabi_alternatephone" disabled="false" uniqueid="{8e3035d6-956c-d3ec-977d-7a4d95a6b282}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4ca865c4-2370-3921-a3ba-7361ed9733bb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pager" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_pager" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_pager" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{163a133d-73aa-4562-83cb-d9b7d6b987a1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email 1" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_email" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="pabi_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c832cc7-83c4-b153-d290-973843b78593}" showlabel="true" locklevel="0" rowspan="6">
+                        <labels>
+                          <label description="Special Notes" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_specialnotes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="pabi_specialnotes" disabled="false" uniqueid="{e7ba5e8b-e27e-ddeb-4348-a176e59b12ea}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{dd3c6969-bba5-be6b-ee51-392e6c314b67}" showlabel="true" locklevel="0" labelid="{3a14ad0f-6f1f-4a2e-8033-4012cd265799}">
+                        <labels>
+                          <label description="Contact Roles" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_name" disabled="false" uniqueid="{a4ba8807-c561-3ed2-3463-47db0487b71b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{d0c33e79-3f81-4bbe-a18f-96ce279d15e7}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{b17a6410-09ef-46c8-8630-85b60990b1e1}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{252893c3-13dc-4631-98d5-e8f75bf75605}" showlabel="false" labelid="{b0ad2a7b-a2ee-4367-a088-92689a4908d6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{51151e42-dd9d-4f38-b99b-c2740a95e9a4}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{7db902cf-0f6e-402f-b6de-179effa1b996}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b78731f7-c5d4-424c-9649-638dc5b31add}" showlabel="false" labelid="{b43adfba-d9c6-49cb-b87a-0599eadf801e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{8aa749ad-61a2-ee6e-b369-1c35ec763985}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>pabi_officephone</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_officephone</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_officephone</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_officephone</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ddba994b-40bb-0661-1088-3b1b8381a154}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>pabi_cell</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_cell</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_cell</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_cell</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{8e3035d6-956c-d3ec-977d-7a4d95a6b282}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>pabi_alternatephone</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_alternatephone</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_alternatephone</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>pabi_alternatephone</value>
+              <mask static="true" type="SingleLine.Text">(000)-000-0000</mask>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="pabi_FormQuickCreateUtil.js" libraryUniqueId="{6d482b1d-1aca-ab47-659b-8d65a86c8b7b}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="OpenMainForm" libraryName="pabi_FormQuickCreateUtil.js" handlerUniqueId="{be0d7915-a361-b3a3-3720-42ae481476a6}" enabled="true" parameters="&quot;pabi_responsiblecontactinregionsandmunicipal&quot;,&quot;264992FA-550B-4E4B-88BE-7CF0B2564CB6&quot;" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Responsible Contact - Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

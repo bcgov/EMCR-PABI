@@ -1,0 +1,57 @@
+const PABI_EMERGENCY_COORDINATION_CENTRE_ROLE_NAME = "PABI - Emergency Coordination Centre";
+const PABI_EMERGENCY_COORDINATION_CENTRE_ROLE_ID = "94130312-8284-EC11-B831-00505683FBF4";
+
+function onFormLoad(executionContext) {
+    registerSummaryTabStateChange(executionContext);
+    makeNameFieldReadOnly(executionContext);
+}
+function registerSummaryTabStateChange(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var tab = formContext.ui.tabs.get("SUMMARY_TAB");
+    if (tab) {
+        tab.addTabStateChange(function () {
+            if (tab.getDisplayState() === "expanded") {
+                formContext.data.refresh(false);
+            }
+        });
+    }
+}
+
+// DEVOPS-234 make Name field read-only if the user has the PABI - Emergency Coordination Centre role
+function makeNameFieldReadOnly(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var userRoles = Xrm.Utility.getGlobalContext().userSettings.securityRoles;
+
+    // Fetch all roles to validate the user's roles
+    Xrm.WebApi.retrieveMultipleRecords("role", "?$select=name,roleid").then(
+        function (result) {
+            var currentUserHasPabiEmergencyCoordinationCentreRole = false;
+
+            // Iterate through all roles and check if the user has the target role
+            result.entities.forEach(function (role) {
+                if (userRoles.includes(role.roleid.toLowerCase())) {
+                    console.log(`User has role: ${role.name} (${role.roleid})`);
+
+                    // Check if the role matches the target role name or ID as a child BU will have the same name but different ID
+                    if (
+                        role.name === PABI_EMERGENCY_COORDINATION_CENTRE_ROLE_NAME ||
+                        role.roleid.toLowerCase() === PABI_EMERGENCY_COORDINATION_CENTRE_ROLE_ID.toLowerCase()
+                    ) {
+                        currentUserHasPabiEmergencyCoordinationCentreRole = true;
+                    }
+                }
+            });
+
+            if (currentUserHasPabiEmergencyCoordinationCentreRole) {
+                formContext.getControl("name").setDisabled(true);
+                console.log(`The 'Name' field is now overridden to read-only because the user has the target role (${PABI_EMERGENCY_COORDINATION_CENTRE_ROLE_NAME}).`);
+            } else {
+                console.log("User does not have the target role. No changes to the 'Name' field.");
+            }
+        },
+        function (error) {
+            console.error("Error retrieving roles:", error.message);
+        }
+    );
+}
+

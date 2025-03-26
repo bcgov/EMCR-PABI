@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{633e45b5-e17c-4da7-ac5c-7ca55489881f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{1a33a1d0-b3e7-4897-a722-8fa6fa2abcbb}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{460c847b-fbf3-4c3e-95c9-3ee039334257}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{38804c36-d8dc-de51-4822-77799ba48686}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Designation Title" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_designationtitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_designationtitle" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{36d0f875-fb78-4d0f-b3df-0bf99e870d04}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{abafac0c-b431-4960-947b-5921ffc186c5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{c46e16e3-1575-4866-9cc0-e744ffd621d1}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6022a623-500a-48c8-8031-2936c759e5f7}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="pabi_FormQuickCreateUtil.js" libraryUniqueId="{66ddd28e-92e8-57bc-6221-9bdc1374d0b1}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="OpenMainForm" libraryName="pabi_FormQuickCreateUtil.js" handlerUniqueId="{e1bc0c15-b80d-5436-ecce-d9b2493665ad}" enabled="true" parameters="&quot;pabi_designation&quot;,&quot;3B2692EE-C468-4491-A541-15E95CD77F8F&quot;" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Title/Position - Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

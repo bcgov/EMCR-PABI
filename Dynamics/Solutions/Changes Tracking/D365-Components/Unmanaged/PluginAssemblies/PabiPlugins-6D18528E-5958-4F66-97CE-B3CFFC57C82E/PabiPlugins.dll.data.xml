@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Pabi.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c87d210092366287" PluginAssemblyId="6d18528e-5958-4f66-97ce-b3cffc57c82e" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/PabiPlugins-6D18528E-5958-4F66-97CE-B3CFFC57C82E/PabiPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Pabi.Plugins.PostCreateUpdateResponsibleContactPlugin, Pabi.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c87d210092366287" PluginTypeId="5d800c02-d0f1-4ab7-a77e-2d270fc68561" Name="Pabi.Plugins.PostCreateUpdateResponsibleContactPlugin">
+      <FriendlyName>816b15bf-2c56-44f8-abcb-4aa389a38cfc</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

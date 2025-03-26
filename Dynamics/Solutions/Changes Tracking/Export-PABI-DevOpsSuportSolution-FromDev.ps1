@@ -1,0 +1,3 @@
+Connect-CrmOnPremDiscovery -InteractiveMode
+Export-CrmSolution ERADevOpsDynamicsSupport
+C:\Projects\DevOps\D365Tools\coretools\SolutionPackager /action:Extract /zipfile:ERADevOpsDynamicsSupport_unmanaged_3_4_2_1.zip /folder:ERADevOpsDynamicsSupport/Unmanaged

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{796ae9e7-e1a1-ef11-b853-00505683fbf4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pabi_name" select="1" icon="1" preview="1">
+        <row name="result" id="pabi_responsiblecontactinregionsandmunicipalid">
+          <cell name="pabi_contact_priority" width="100" />
+          <cell name="pabi_name" width="100" />
+          <cell name="pabi_disciplineid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_designationid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_areacommunityid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_regionid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_groupteamid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pabi_responsiblecontactinregionsandmunicipal">
+          <order attribute="pabi_contact_priority" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="pabi_regionid" />
+          <attribute name="pabi_areacommunityid" />
+          <attribute name="pabi_disciplineid" />
+          <attribute name="pabi_designationid" />
+          <attribute name="pabi_contact_priority" />
+          <attribute name="pabi_groupteamid" />
+          <attribute name="pabi_name" />
+          <attribute name="pabi_responsiblecontactinregionsandmunicipalid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Related Responsible Contacts" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="View Responsible Contacts from related entities" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

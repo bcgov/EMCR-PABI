@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.AddCampaignResponse.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.AddCampaignResponse" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.Assign.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.Assign" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.FollowButton.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.MailMerge.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.MailMerge" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.Permissions.Sharing.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.Permissions.Sharing" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.RefreshModernButton.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.RefreshModernButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.SendSelected.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.SendSelected" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.UnfollowButton.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.UnfollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.WordTemplate.Hide" Location="Mscrm.Form.pabi_responsiblecontactinregionsandmunicipal.WordTemplate" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.AddConnection.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.AddConnection" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Assign.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Assign" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Delete" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Edit" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Export.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Export" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Import.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.Import" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.New.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.New" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.RefreshButton.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Chart.RefreshButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Charts.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Charts" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.DocumentTemplate" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.FollowButton.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.RefreshButton.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.RefreshButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.RefreshModernButton.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.RefreshModernButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Send.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Send" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Sharing.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.Sharing" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.UnfollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.WordTemplate.Hide" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.WordTemplate" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddConnection.Hide" Location="Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddConnection" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddExistingAssoc" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddExistingStandard.Hide" Location="Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddExistingStandard" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddNewStandard.Hide" Location="Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.AddNewStandard" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.FollowButton.Hide" Location="Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.UnfollowButton.Hide" Location="Mscrm.SubGrid.pabi_responsiblecontactinregionsandmunicipal.UnfollowButton" />
+    <CustomAction Id="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.Button.CustomAction" Location="Mscrm.HomepageGrid.pabi_responsiblecontactinregionsandmunicipal.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <Button Command="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.Command" Id="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.Button" LabelText="$LocLabels:pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.Button.LabelText" Sequence="55" TemplateAlias="o3" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.NewRecordFromGrid">
+      <EnableRules>
+        <EnableRule Id="Mscrm.IsValidForHierarchyView" />
+        <EnableRule Id="Mscrm.IsValidForHierarchyPageInUC" />
+        <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline" />
+        <EnableRule Id="Mscrm.PrimaryIsNotActivityHomePageGrid" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CreateSelectedEntityPermission" />
+        <DisplayRule Id="Mscrm.ShowForNonRelationshipBoundGrids" />
+        <DisplayRule Id="Mscrm.HideNewForChildEntities" />
+        <DisplayRule Id="Mscrm.HideAddressEntities" />
+        <DisplayRule Id="Mscrm.SelectedEntityIsNotBPFEntity" />
+        <DisplayRule Id="Mscrm.IsNotActivityPointer" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Open.openNewRecord" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.Command">
+      <EnableRules>
+        <EnableRule Id="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions />
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="Mscrm.CreateSelectedEntityPermission">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.HideAddressEntities">
+        <EntityRule EntityName="customeraddress" AppliesTo="SelectedEntity" Default="false" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.HideNewForChildEntities">
+        <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="IsChildEntity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.IsNotActivityPointer">
+        <EntityRule EntityName="activitypointer" AppliesTo="SelectedEntity" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.SelectedEntityIsNotBPFEntity">
+        <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="IsBPFEntity" PropertyValue="false" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.ShowForNonRelationshipBoundGrids">
+        <RelationshipTypeRule AppliesTo="SelectedEntity" RelationshipType="NoRelationship" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="Mscrm.IsEntityAvailableForUserInMocaOffline">
+        <CustomRule FunctionName="XrmCore.Rules.Online.IsEntityAvailableForUserInMocaOffline" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsValidForHierarchyPageInUC">
+        <CustomRule FunctionName="XrmCore.Rules.HierarchyView.isValidForHierarchyPageInUC" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsValidForHierarchyView">
+        <CustomRule FunctionName="XrmCore.Rules.HierarchyView.isValidForHierarchyView" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.PrimaryIsNotActivityHomePageGrid">
+        <CustomRule FunctionName="XrmCore.Rules.Enabled.PrimaryIsNotActivityHomePageGrid" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.EnableRule">
+        <CustomRule FunctionName="EnableRibbonButton" Library="$webresource:pabi_RibbonButton.js" Default="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="pabi.pabi_responsiblecontactinregionsandmunicipal.HideButtons.Button.LabelText">
+      <Titles>
+        <Title description="Hide Buttons" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

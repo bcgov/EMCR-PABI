@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.contact.AddConnection.Hide" Location="Mscrm.Form.contact.AddConnection" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.contact.FollowButton.Hide" Location="Mscrm.Form.contact.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.contact.UnfollowButton.Hide" Location="Mscrm.Form.contact.UnfollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.AddConnection.Hide" Location="Mscrm.HomepageGrid.contact.AddConnection" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.contact.Chart.Edit" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Chart.New.Hide" Location="Mscrm.HomepageGrid.contact.Chart.New" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Charts.Hide" Location="Mscrm.HomepageGrid.contact.Charts" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.FollowButton.Hide" Location="Mscrm.HomepageGrid.contact.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.RunScript.Hide" Location="Mscrm.HomepageGrid.contact.RunScript" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.contact.RunWorkflow" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.contact.UnfollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.contact.AddConnection.Hide" Location="Mscrm.SubGrid.contact.AddConnection" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.contact.FollowButton.Hide" Location="Mscrm.SubGrid.contact.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.SubGrid.contact.UnfollowButton.Hide" Location="Mscrm.SubGrid.contact.UnfollowButton" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>
