@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions />
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.SharePointDocumentDelete">
+      <EnableRules>
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+        <EnableRule Id="Mscrm.IsDocumentNotFromSharedLocation" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="DocumentManagement.SharePointDocumentDelete.Invoker" Library="$Webresource:SharePoint_main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </JavaScriptFunction>
+        <JavaScriptFunction FunctionName="AddFunctionOnDocumentDelete" Library="$webresource:pabi_DocumentFlagUpdate" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="Mscrm.SharePointDocumentUpload">
+      <EnableRules>
+        <EnableRule Id="Mscrm.IsSharePointDocLocationNotSharedOrAllFiles" />
+        <EnableRule Id="Mscrm.IsFolderNotSelected" />
+        <EnableRule Id="Mscrm.IsSharePointSiteConfigured" />
+        <EnableRule Id="Mscrm.IsRecordHasActiveSharePointDocLocation" />
+        <EnableRule Id="Mscrm.SelectionCountZero" />
+        <EnableRule Id="Mscrm.IsDocumentManagementEnabled" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="DocumentManagement.SharePointDocumentUpload.SharePointUpload" Library="$Webresource:SharePoint_main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="PrimaryEntityTypeCode" />
+        </JavaScriptFunction>
+        <JavaScriptFunction FunctionName="AddFunctionOnDocumentUpload" Library="$webresource:pabi_DocumentFlagUpdate" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="Mscrm.IsDocumentManagementEnabled">
+        <CustomRule FunctionName="XrmCore.Rules.SharePointDocument.isDocumentManagementEnabled" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsDocumentNotFromSharedLocation">
+        <CustomRule FunctionName="XrmCore.Rules.SharePointDocument.isDocumentNotFromSharedLocation" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsFolderNotSelected">
+        <CustomRule FunctionName="XrmCore.Rules.SharePointDocument.isFolderNotSelected" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsRecordHasActiveSharePointDocLocation">
+        <CustomRule FunctionName="XrmCore.Rules.SharePointDocument.isRecordHasActiveSharePointDocLocation" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsSharePointDocLocationNotSharedOrAllFiles">
+        <CustomRule FunctionName="XrmCore.Rules.SharePointDocument.isSharePointDocLocationNotSharedOrAllFiles" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="Mscrm.IsSharePointSiteConfigured">
+        <CustomRule FunctionName="XrmCore.Rules.SharePointDocument.isSharePointSiteConfigured" Library="$webresource:Main_system_library.js" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.SelectionCountAtLeastOne">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.SelectionCountZero">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" InvertResult="true" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

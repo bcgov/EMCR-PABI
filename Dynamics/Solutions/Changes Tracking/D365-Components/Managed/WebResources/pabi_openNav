@@ -1,0 +1,11 @@
+function openNav(executionContext) {
+     try {
+        var formContext = executionContext.getFormContext();
+        formContext.ui.navigation.items.get("navSPDocuments").setFocus();
+        formContext.ui.tabs.getByName("tabGeneral").setFocus();
+    }
+    catch (e) {
+        Xrm.Utility.alertDialog(e.message);
+    }
+
+}

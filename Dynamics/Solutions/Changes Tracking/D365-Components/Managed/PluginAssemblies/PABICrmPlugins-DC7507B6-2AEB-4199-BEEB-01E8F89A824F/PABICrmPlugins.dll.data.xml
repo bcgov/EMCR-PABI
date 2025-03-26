@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="PABI.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=632796618a21b4de" PluginAssemblyId="dc7507b6-2aeb-4199-beeb-01e8f89a824f" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/PABICrmPlugins-DC7507B6-2AEB-4199-BEEB-01E8F89A824F/PABICrmPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="PABI.Crm.Plugins.SetDocumentAttachedFlag, PABI.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=632796618a21b4de" PluginTypeId="a5b4d790-11e5-476f-a8b3-87c5f5696a0e" Name="PABI.Crm.Plugins.SetDocumentAttachedFlag">
+      <FriendlyName>bc86dc29-2000-45b9-a6f6-a7199b4a0edc</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

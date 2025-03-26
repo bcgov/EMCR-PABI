@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="PABI.Crm.Plugins.SetDocumentAttachedFlag: RetrieveMultiple of sharepointdocument" SdkMessageProcessingStepId="{dc41251c-2fee-ef11-b857-00505683fbf4}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>03bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>PABI.Crm.Plugins.SetDocumentAttachedFlag, PABI.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=632796618a21b4de</PluginTypeName>
+  <PluginTypeId>a5b4d790-11e5-476f-a8b3-87c5f5696a0e</PluginTypeId>
+  <PrimaryEntity>sharepointdocument</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;Configuration&gt;
+            &lt;RegardingEntityName&gt;pabi_responsiblecontactinregionsandmunicipal&lt;/RegardingEntityName&gt;
+            &lt;RegardingEntityIdField&gt;pabi_responsiblecontactinregionsandmunicipalid&lt;/RegardingEntityIdField&gt;
+            &lt;DocumentAttachedBoolFieldName&gt;pabi_documentsattached&lt;/DocumentAttachedBoolFieldName&gt;
+        &lt;/Configuration&gt;</Configuration>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

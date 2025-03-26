@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b081250d-5ead-44f1-bd95-8a81e3e9371f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{f8168269-8947-443d-8210-927031209c04}" IsUserDefined="1" name="{f8168269-8947-443d-8210-927031209c04}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2fc461a0-e99d-4359-88f8-c162785b473f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{11dfa865-7792-4ef3-81e2-592e35949b23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area/Community Name" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_name" uniqueid="{6774324d-b896-5574-8630-c523e84a237e}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dab8c37e-4c0b-3736-eb27-221980194245}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Nation Community/Area" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_firstnationcommunityarea" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="pabi_firstnationcommunityarea" disabled="false" uniqueid="{66697c8b-76e1-b324-7ae7-84654ecd7bc1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d156a60-2b26-65a6-06ea-c4b9706a93ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_regionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_regionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{08a1924d-58cb-4b99-9f5c-2881fd827fcf}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{973ca287-d4a9-de86-4905-c82486dd1e82}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="ResponsibleContactinArea" showlabel="true" showbar="true" locklevel="0" id="{60ad9e7e-3184-31a2-895c-3d52bd7be726}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Responsible Contact in Area" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{24c242b7-51d2-9d26-0481-b893ce8702dc}" showlabel="false" colspan="1" auto="false" rowspan="18">
+                        <labels>
+                          <label description="Responsible Contact in Regions and Areas (Area/Community)" languagecode="1033" />
+                        </labels>
+                        <control id="ResponsibleContactinArea" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{4e5b4de1-e422-950a-775b-16380a986142}">
+                          <parameters>
+                            <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>pabi_areacommunity_to_responsiblecontacts</RelationshipName>
+                            <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>16</RecordsPerPage>
+                            <HeaderColorCode>#FEF7F5</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{66697c8b-76e1-b324-7ae7-84654ecd7bc1}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>pabi_firstnationcommunityarea</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>pabi_firstnationcommunityarea</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>pabi_firstnationcommunityarea</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>pabi_firstnationcommunityarea</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4e5b4de1-e422-950a-775b-16380a986142}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>pabi_areacommunity_to_responsiblecontacts</RelationshipName>
+              <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>16</RecordsPerPage>
+              <HeaderColorCode>#FEF7F5</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+            <parameters>
+              <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>pabi_areacommunity_to_responsiblecontacts</RelationshipName>
+              <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>16</RecordsPerPage>
+              <HeaderColorCode>#FEF7F5</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>pabi_areacommunity_to_responsiblecontacts</RelationshipName>
+                <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Area / Community - Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

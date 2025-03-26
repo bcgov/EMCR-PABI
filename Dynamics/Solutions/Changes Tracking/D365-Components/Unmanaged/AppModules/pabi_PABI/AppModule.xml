@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>pabi_PABI</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="annotation" />
+    <AppModuleComponent type="1" schemaName="appointment" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="customeraddress" />
+    <AppModuleComponent type="1" schemaName="email" />
+    <AppModuleComponent type="1" schemaName="entitlement" />
+    <AppModuleComponent type="1" schemaName="expiredprocess" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="knowledgebaserecord" />
+    <AppModuleComponent type="1" schemaName="letter" />
+    <AppModuleComponent type="1" schemaName="pabi_areacommunity" />
+    <AppModuleComponent type="1" schemaName="pabi_designation" />
+    <AppModuleComponent type="1" schemaName="pabi_group" />
+    <AppModuleComponent type="1" schemaName="pabi_organizationgroupsandteam" />
+    <AppModuleComponent type="1" schemaName="pabi_region" />
+    <AppModuleComponent type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" />
+    <AppModuleComponent type="1" schemaName="queueitem" />
+    <AppModuleComponent type="1" schemaName="sharepointdocumentlocation" />
+    <AppModuleComponent type="1" schemaName="task" />
+    <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001210}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666400}" />
+    <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="26" id="{38f4dd3d-49b1-ec11-b832-00505683fbf4}" />
+    <AppModuleComponent type="26" id="{05c77c4e-49b1-ec11-b832-00505683fbf4}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666000}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001200}" />
+    <AppModuleComponent type="26" id="{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}" />
+    <AppModuleComponent type="26" id="{d31ddc58-49b1-ec11-b832-00505683fbf4}" />
+    <AppModuleComponent type="26" id="{cc98cb1f-6552-4fd8-9e2f-39a1cad2f710}" />
+    <AppModuleComponent type="26" id="{6fef1242-d3e2-4358-912d-27c268abd323}" />
+    <AppModuleComponent type="26" id="{fd1c0fa8-b84d-448d-a44d-5f504ebe7316}" />
+    <AppModuleComponent type="26" id="{f26e11d0-0ef8-4dff-a7e2-1f5e091fedb0}" />
+    <AppModuleComponent type="26" id="{f5645881-ded8-4078-bd03-3cadefa1a555}" />
+    <AppModuleComponent type="26" id="{6e8b4b8c-30f7-44ef-a958-be72baabc349}" />
+    <AppModuleComponent type="26" id="{174153cb-cc83-4313-a725-6de91759819c}" />
+    <AppModuleComponent type="26" id="{7aff64b0-5b8c-4ad7-89f8-976777eee178}" />
+    <AppModuleComponent type="26" id="{fbb9eb64-31d8-4d03-b580-0f22d5a72482}" />
+    <AppModuleComponent type="26" id="{34d4a34a-48e1-46fd-a1ef-d98565932981}" />
+    <AppModuleComponent type="26" id="{d4f4323b-8142-488b-9f8e-74268e4c4fcf}" />
+    <AppModuleComponent type="26" id="{2ab7ed00-9807-4e81-9270-e0d8a041d9a7}" />
+    <AppModuleComponent type="29" id="{bcd43793-5686-4fd4-b3b4-c0c26d6f7e40}" />
+    <AppModuleComponent type="59" id="{2ff3ebea-6310-4dde-b3a1-e1144ea42b7b}" />
+    <AppModuleComponent type="60" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+    <AppModuleComponent type="60" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="60" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+    <AppModuleComponent type="60" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+    <AppModuleComponent type="60" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
+    <AppModuleComponent type="60" id="{8e10b902-0b3e-441c-8b12-88e6c1793848}" />
+    <AppModuleComponent type="60" id="{8ed8553f-b520-4fe3-b2e7-59eef8301486}" />
+    <AppModuleComponent type="60" id="{8af9d012-979b-483e-962b-1c2b0d6f62e2}" />
+    <AppModuleComponent type="60" id="{29dca570-fc00-4eb8-8313-1ed343ef5958}" />
+    <AppModuleComponent type="60" id="{7cfbe327-3240-4a7f-b45d-d0225224a349}" />
+    <AppModuleComponent type="60" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+    <AppModuleComponent type="60" id="{1546aa97-d77f-468a-acb1-628462ed3bc2}" />
+    <AppModuleComponent type="60" id="{75b8b3bf-1c1f-47d3-b6e2-1565073469b9}" />
+    <AppModuleComponent type="60" id="{0d1e47ff-12b2-4f53-9090-bee951b98cb4}" />
+    <AppModuleComponent type="60" id="{6661cf9b-c178-44fd-b70b-8c632bd0bfb2}" />
+    <AppModuleComponent type="60" id="{394ca387-4777-457c-b5ae-c7a3e632be41}" />
+    <AppModuleComponent type="62" schemaName="pabi_PABI" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{5918b1e5-4bb1-ec11-b832-00505683fbf4}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{61c80036-8284-ec11-b831-00505683fbf4}" />
+    <Role id="{94130312-8284-ec11-b831-00505683fbf4}" />
+    <Role id="{1d08990e-91a3-ef11-b853-00505683fbf4}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="PABI" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

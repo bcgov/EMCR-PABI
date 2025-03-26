@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{59927bd5-6a4e-40b7-b3ab-9759f367b9e7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pabi_recordid" select="1" icon="1" preview="1">
+        <row name="result" id="pabi_organizationgroupsandteamid">
+          <cell name="pabi_recordid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_disciplineorganizationid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_groupteamid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pabi_organizationgroupsandteam">
+          <attribute name="pabi_recordid" />
+          <attribute name="createdon" />
+          <order attribute="pabi_recordid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="pabi_groupteamid" />
+          <attribute name="pabi_disciplineorganizationid" />
+          <attribute name="pabi_organizationgroupsandteamid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.1.0.12</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Organization Groups And Teams" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="pabi.account.HideButtons.Button.CustomAction" Location="Mscrm.HomepageGrid.account.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <Button Command="pabi.account.HideButtons.Command" Id="pabi.account.HideButtons.Button" LabelText="$LocLabels:pabi.account.HideButtons.Button.LabelText" Sequence="55" TemplateAlias="o3" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.AddConnection.Hide" Location="Mscrm.Form.account.AddConnection" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.AddToList.Hide" Location="Mscrm.Form.account.AddToList" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.Assign.Hide" Location="Mscrm.Form.account.Assign" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.account.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.account.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.FollowButton.Hide" Location="Mscrm.Form.account.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.Permissions.Sharing.Hide" Location="Mscrm.Form.account.Permissions.Sharing" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.RefreshModernButton.Hide" Location="Mscrm.Form.account.RefreshModernButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.SendSelected.Hide" Location="Mscrm.Form.account.SendSelected" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.ViewOrgChart.Hide" Location="Mscrm.Form.account.ViewOrgChart" />
+    <HideCustomAction HideActionId="pabi.Mscrm.Form.account.WordTemplate.Hide" Location="Mscrm.Form.account.WordTemplate" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.AddToList.Hide" Location="Mscrm.HomepageGrid.account.AddToList" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.Assign.Hide" Location="Mscrm.HomepageGrid.account.Assign" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.account.DocumentTemplate" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.account.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.FollowButton.Hide" Location="Mscrm.HomepageGrid.account.FollowButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.account.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.QuickCampaign.Hide" Location="Mscrm.HomepageGrid.account.QuickCampaign" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.RefreshButton.Hide" Location="Mscrm.HomepageGrid.account.RefreshButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.RefreshModernButton.Hide" Location="Mscrm.HomepageGrid.account.RefreshModernButton" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.Send.Hide" Location="Mscrm.HomepageGrid.account.Send" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.Sharing.Hide" Location="Mscrm.HomepageGrid.account.Sharing" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.ViewOrgChart.Hide" Location="Mscrm.HomepageGrid.account.ViewOrgChart" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.account.WordTemplate.Hide" Location="Mscrm.HomepageGrid.account.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="pabi.account.HideButtons.Command">
+      <EnableRules>
+        <EnableRule Id="pabi.account.HideButtons.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions />
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="pabi.account.HideButtons.EnableRule">
+        <CustomRule FunctionName="EnableRibbonButton" Library="$webresource:pabi_RibbonButton.js" Default="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="pabi.account.HideButtons.Button.LabelText">
+      <Titles>
+        <Title description="Hide Buttons" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

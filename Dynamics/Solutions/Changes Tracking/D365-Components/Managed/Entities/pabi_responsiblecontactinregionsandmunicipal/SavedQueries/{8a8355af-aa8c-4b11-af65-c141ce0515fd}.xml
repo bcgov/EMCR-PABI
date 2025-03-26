@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8a8355af-aa8c-4b11-af65-c141ce0515fd}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="pabi_name" select="1" icon="1" preview="0">
+        <row name="pabi_responsiblecontactinregionsandmunicipal" id="pabi_responsiblecontactinregionsandmunicipalid">
+          <cell name="pabi_name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_contact_priority" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_contactid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_disciplineid" width="100" />
+          <cell name="pabi_regionid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_areacommunityid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_designationid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="pabi_groupteamid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pabi_responsiblecontactinregionsandmunicipal">
+          <attribute name="pabi_responsiblecontactinregionsandmunicipalid" />
+          <attribute name="pabi_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="pabi_name" descending="false" />
+          <attribute name="pabi_regionid" />
+          <attribute name="pabi_contactid" />
+          <attribute name="pabi_areacommunityid" />
+          <attribute name="pabi_disciplineid" />
+          <attribute name="pabi_designationid" />
+          <attribute name="pabi_groupteamid" />
+          <attribute name="pabi_contact_priority" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Responsible Contacts Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

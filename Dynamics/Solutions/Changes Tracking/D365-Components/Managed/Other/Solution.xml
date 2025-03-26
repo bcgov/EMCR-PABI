@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.30.9" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>PABIDevOpsDynamicsSupport</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="PABI - DevOps Dynamics Support" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Contains :&#xA; - Dec 2024 Release: Contact Management Release R1.1.1 (DEVOPS-127,DEVOPS-134,DEVOPS-125,DEVOPS-136,DEVOPS-137,DEVOPS-138, DEVOPS-90, DEVOPS-91)&#xA; - Jul 2024 Release: Contact Management Release R1.1.0" languagecode="1033" />
+    </Descriptions>
+    <Version>1.1.3.0</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>embcpabi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="EMBC - PABI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>pabi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>75368</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="activitypointer" behavior="2" />
+      <RootComponent type="1" schemaName="annotation" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
+      <RootComponent type="1" schemaName="connection" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="email" behavior="2" />
+      <RootComponent type="1" schemaName="fax" behavior="2" />
+      <RootComponent type="1" schemaName="letter" behavior="2" />
+      <RootComponent type="1" schemaName="pabi_areacommunity" behavior="0" />
+      <RootComponent type="1" schemaName="pabi_designation" behavior="0" />
+      <RootComponent type="1" schemaName="pabi_group" behavior="0" />
+      <RootComponent type="1" schemaName="pabi_organizationgroupsandteam" behavior="0" />
+      <RootComponent type="1" schemaName="pabi_region" behavior="0" />
+      <RootComponent type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" behavior="1" />
+      <RootComponent type="1" schemaName="phonecall" behavior="2" />
+      <RootComponent type="1" schemaName="processsession" behavior="2" />
+      <RootComponent type="1" schemaName="recurringappointmentmaster" behavior="2" />
+      <RootComponent type="1" schemaName="serviceappointment" behavior="2" />
+      <RootComponent type="1" schemaName="sharepointdocument" behavior="1" />
+      <RootComponent type="1" schemaName="sharepointdocumentlocation" behavior="1" />
+      <RootComponent type="1" schemaName="socialactivity" behavior="2" />
+      <RootComponent type="1" schemaName="syncerror" behavior="2" />
+      <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="20" id="{1d08990e-91a3-ef11-b853-00505683fbf4}" behavior="0" />
+      <RootComponent type="20" id="{5918b1e5-4bb1-ec11-b832-00505683fbf4}" behavior="0" />
+      <RootComponent type="20" id="{61c80036-8284-ec11-b831-00505683fbf4}" behavior="0" />
+      <RootComponent type="20" id="{94130312-8284-ec11-b831-00505683fbf4}" behavior="0" />
+      <RootComponent type="20" id="{aedddfc4-deba-ee11-b84a-00505683fbf4}" behavior="0" />
+      <RootComponent type="29" id="{0ff96de2-e2a8-45aa-b1fd-f42ec20c662d}" behavior="0" />
+      <RootComponent type="29" id="{2f3cdeb2-e15d-4cdf-b62a-5e2129a5c38a}" behavior="0" />
+      <RootComponent type="29" id="{a43d2580-4a77-4d20-b074-d9278384dc6d}" behavior="0" />
+      <RootComponent type="60" id="{1546aa97-d77f-468a-acb1-628462ed3bc2}" behavior="0" />
+      <RootComponent type="60" id="{1fda9cfd-7ee0-41e9-a8b0-fe7528768bda}" />
+      <RootComponent type="60" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      <RootComponent type="60" id="{29dca570-fc00-4eb8-8313-1ed343ef5958}" />
+      <RootComponent type="60" id="{473d1427-a50e-45b8-a64e-e204078a9adb}" />
+      <RootComponent type="60" id="{75b8b3bf-1c1f-47d3-b6e2-1565073469b9}" />
+      <RootComponent type="60" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      <RootComponent type="60" id="{7cfbe327-3240-4a7f-b45d-d0225224a349}" />
+      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" behavior="0" />
+      <RootComponent type="60" id="{8af9d012-979b-483e-962b-1c2b0d6f62e2}" />
+      <RootComponent type="60" id="{b35fa736-59fa-4a96-925e-67d4133421f7}" />
+      <RootComponent type="60" id="{e2c8a79b-b278-4d15-a395-92354261ddc9}" />
+      <RootComponent type="60" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+      <RootComponent type="61" schemaName="pabi_/Scripts/SharePointUrl/Upload.html" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_BC_GOV_LOGO" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_disciplineandorganization" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_DocumentFlagUpdate" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_EMBCLogo" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_FormQuickCreateUtil.js" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_FormUtil.js" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_openNav" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_responsibleContact" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_responsibleContactQuickCreate" behavior="0" />
+      <RootComponent type="61" schemaName="pabi_RibbonButton.js" behavior="0" />
+      <RootComponent type="62" schemaName="pabi_ContactManagement" behavior="0" />
+      <RootComponent type="62" schemaName="pabi_PABI" behavior="0" />
+      <RootComponent type="80" schemaName="pabi_PABI" behavior="0" />
+      <RootComponent type="9" schemaName="pabi_preferences" behavior="0" />
+      <RootComponent type="91" id="{dc7507b6-2aeb-4199-beeb-01e8f89a824f}" schemaName="PABI.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=632796618a21b4de" behavior="0" />
+      <RootComponent type="91" id="{6d18528e-5958-4f66-97ce-b3cffc57c82e}" schemaName="Pabi.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c87d210092366287" behavior="0" />
+      <RootComponent type="92" id="{644087d5-88b3-ee11-b849-00505683fbf4}" behavior="0" />
+      <RootComponent type="92" id="{94e001ce-78b3-ee11-b849-00505683fbf4}" behavior="0" />
+      <RootComponent type="92" id="{991550c6-4fee-ef11-b857-00505683fbf4}" behavior="0" />
+      <RootComponent type="92" id="{dc41251c-2fee-ef11-b857-00505683fbf4}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="15" type="62" schemaName="pabi_ContactManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="15" type="62" schemaName="pabi_ContactManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="entitlement" displayName="Entitlement" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="15" type="62" schemaName="pabi_ContactManagement" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" displayName="Responsible Contact" solution="Active" />
+        <Dependent key="0" type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" displayName="Responsible Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="serviceappointment" displayName="Service Activity" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="1" schemaName="serviceappointment" displayName="Service Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="34" type="60" displayName="Responsible Contact - Card" parentDisplayName="Responsible Contact" id="{1fda9cfd-7ee0-41e9-a8b0-fe7528768bda}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="46" type="29" displayName="TBR - PABI - Responsible Contact - Populate Responsible contact Name" id="{a43d2580-4a77-4d20-b074-d9278384dc6d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="47" type="26" schemaName="Responsible Contacts Lookup View" displayName="Responsible Contacts Lookup View" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" id="{8a8355af-aa8c-4b11-af65-c141ce0515fd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="48" type="26" schemaName="Responsible Contacts" displayName="Responsible Contacts" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" id="{fd403513-1f8d-45d8-9afc-d22765fa2fee}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="29" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="29" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="33" type="60" displayName="Responsible Contact - Quick View" parentDisplayName="Responsible Contact" id="{e2c8a79b-b278-4d15-a395-92354261ddc9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
+        <Dependent key="34" type="60" displayName="Responsible Contact - Card" parentDisplayName="Responsible Contact" id="{1fda9cfd-7ee0-41e9-a8b0-fe7528768bda}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="serviceappointment" parentDisplayName="Service Activity" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="50" type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="serviceappointment" parentDisplayName="Service Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent key="49" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}" />
+        <Dependent key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="60" displayName="Case Reference Panel" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8ed8553f-b520-4fe3-b2e7-59eef8301486}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="60" displayName="Customer Service Operations Dashboard" solution="msdynce_Service (9.0.5.56)" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="60" displayName="Case Quick Create" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8e10b902-0b3e-441c-8b12-88e6c1793848}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="60" displayName="Customer Service Representative Dashboard" solution="msdynce_Service (9.0.5.56)" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="60" displayName="Customer Service Manager Dashboard" solution="msdynce_Service (9.0.5.56)" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="60" displayName="Case - Main" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="60" displayName="Email" parentDisplayName="Email" solution="msdynce_Activities (9.0.1.2033)" id="{0d1e47ff-12b2-4f53-9090-bee951b98cb4}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="60" displayName="Tier 1 Dashboard" solution="msdynce_Service (9.0.5.56)" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Dependent key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="23" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="39" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="61" schemaName="AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" displayName="AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="19" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="3" type="80" schemaName="pabi_PABI" displayName="PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="61" schemaName="Sales/_imgs/goalmanagement/RollupQuery.svg" displayName="Sales/_imgs/goalmanagement/RollupQuery.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="19" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="61" schemaName="Sales/_imgs/productgrid/Bundle.svg" displayName="Sales/_imgs/productgrid/Bundle.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="19" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="61" schemaName="Sales/_imgs/productgrid/SalesTerritories.svg" displayName="Sales/_imgs/productgrid/SalesTerritories.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="19" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="29" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="36" type="60" displayName="Discipline/Organization - Quick Create" parentDisplayName="Discipline/Organization" id="{1546aa97-d77f-468a-acb1-628462ed3bc2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="43" type="60" displayName="Area / Community - Main" parentDisplayName="Area/Community" id="{b081250d-5ead-44f1-bd95-8a81e3e9371f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="45" type="60" displayName="Area / Community - Quick Create" parentDisplayName="Area/Community" id="{23dd60c8-bdd2-4caa-a1e7-0fc3896199bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="38" type="60" displayName="Group/Team - Main" parentDisplayName="Group/Team" id="{904970f9-a94d-48ac-beab-81fe0526b2b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="39" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="40" type="60" displayName="Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="43" type="60" displayName="Area / Community - Main" parentDisplayName="Area/Community" id="{b081250d-5ead-44f1-bd95-8a81e3e9371f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="44" type="60" displayName="Title/Position - Main" parentDisplayName="Title/Position" id="{3b2692ee-c468-4491-a541-15e95cd77f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="29" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="39" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="40" type="60" displayName="Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="41" type="60" displayName="Contact - Main" parentDisplayName="Contact" id="{8af9d012-979b-483e-962b-1c2b0d6f62e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="42" type="60" displayName="Responsible Contact - Quick Create" parentDisplayName="Responsible Contact" id="{b35fa736-59fa-4a96-925e-67d4133421f7}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

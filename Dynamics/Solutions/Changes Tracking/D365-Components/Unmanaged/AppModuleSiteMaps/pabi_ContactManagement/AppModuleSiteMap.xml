@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>pabi_ContactManagement</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/_imgs/sales_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Contact Center" />
+      </Titles>
+      <Group Id="MyWork" ResourceId="Group_MyWork" DescriptionResourceId="My_Work_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="My_Work_ToolTip">
+        <SubArea Id="NewSubArea_b650c5d4" Entity="pabi_responsiblecontactinregionsandmunicipal" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="nav_dashboards" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/area/18_home.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="2701de60-8f2a-48a4-8262-4a35ca7441fa" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="NewGroup_5c9a5e9d" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Contacts / Disciplines" />
+        </Titles>
+        <SubArea Id="ContactSubArea_3a21769d" VectorIcon="/WebResources/AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" Icon="/WebResources/AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Contacts" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="DiscplineSubArea_bccf5d83" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Disciplines" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_b4c43c19" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Communities / Regions" />
+        </Titles>
+        <SubArea Id="RegionsSubArea_698aa6f5" VectorIcon="/WebResources/CustomerServiceHub/_imgs/Sitemap/Library.svg" Entity="pabi_region" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Regions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="AreaCommunitySubArea_ca1dcf53" Entity="pabi_areacommunity" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Area / Communities" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="DesignationSubArea_323632c7" Entity="pabi_designation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Designations" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="MA" ResourceId="Area_Marketing" DescriptionResourceId="Marketing_Description" Icon="/_imgs/marketing_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Group Id="MyWork" ResourceId="Group_MyWork" DescriptionResourceId="My_Work_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="My_Work_ToolTip">
+        <SubArea Id="nav_dashboards" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/area/18_home.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="B46AEB74-BF0C-44FB-8158-9575588D1B57" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="MA" ResourceId="Area_Marketing" DescriptionResourceId="Marketing_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Marketing_ToolTip">
+        <SubArea Id="nav_lists" DescriptionResourceId="MarketingList_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Marketing-Lists_Web_User_Visor.html" GetStartedPanePathAdmin="Marketing-Lists_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Marketing-Lists_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Marketing-Lists_Outlook_User_Visor.html" Entity="list" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_campaigns" DescriptionResourceId="Campaign_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Campaigns_Web_User_Visor.html" GetStartedPanePathAdmin="Campaigns_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Campaigns_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Campaigns_Outlook_User_Visor.html" Entity="campaign" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_minicamps" DescriptionResourceId="Quick_Campaign_Description" Icon="/_imgs/ico_18_minicamps.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Quick-Campaigns_Web_User_Visor.html" GetStartedPanePathAdmin="Quick-Campaigns_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Quick-Campaigns_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Quick-Campaigns_Outlook_User_Visor.html" Entity="bulkoperation" AvailableOffline="true" PassParams="false" />
+      </Group>
+    </Area>
+    <Area Id="NewArea_8c2a6969" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Tools" />
+      </Titles>
+      <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
+        <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="report" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_traces" ResourceId="Homepage_Alerts" DescriptionResourceId="Alerts_SubArea_Description" Icon="/_imgs/area/18_alerts.png" Url="/_root/tracewall.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="tracelog" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_calendar" ResourceId="Homepage_Calendar" Icon="/_imgs/area/18_calendar.gif" Url="/workplace/home_calendar.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="activitypointer" Privilege="Read" />
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Contact Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>contact</EntitySource>
+    <EntityTarget>pabi_responsiblecontactinregionsandmunicipal</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>emailaddress1</AttributeSource>
+        <AttributeTarget>pabi_email</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>fax</AttributeSource>
+        <AttributeTarget>pabi_fax</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>mobilephone</AttributeSource>
+        <AttributeTarget>pabi_cell</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>telephone1</AttributeSource>
+        <AttributeTarget>pabi_officephone</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>telephone2</AttributeSource>
+        <AttributeTarget>pabi_alternatephone</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

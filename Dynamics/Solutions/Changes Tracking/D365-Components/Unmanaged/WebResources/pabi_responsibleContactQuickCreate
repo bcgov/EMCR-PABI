@@ -1,0 +1,30 @@
+       // DEVOPS-189 Function to process the lastname field and update firstname and lastname accordingly
+
+function processLastName(executionContext) {
+    // Get the form context
+    var formContext = executionContext.getFormContext();
+
+    // Get the value of the 'lastname' field
+    var lastNameValue = formContext.getAttribute("lastname").getValue();
+
+    // If the 'lastname' field is null or empty, do nothing and exit
+    if (!lastNameValue) {
+        return;
+    }
+
+    // Check if the 'lastname' field does not contain a space
+    if (lastNameValue.indexOf(" ") === -1) {
+        // If there is no space, copy the 'lastname' to 'firstname' and clear 'lastname'
+        formContext.getAttribute("firstname").setValue(lastNameValue);
+        formContext.getAttribute("lastname").setValue(null);
+    } else {
+        // If there is a space, split the value into part1 and part2
+        var spaceIndex = lastNameValue.indexOf(" ");  // Find the first occurrence of space
+        var part1 = lastNameValue.substring(0, spaceIndex).trim(); // Trim leading/trailing spaces from part1
+        var part2 = lastNameValue.substring(spaceIndex + 1).trim(); // Trim leading/trailing spaces from part2
+
+        // Copy part1 to 'firstname' and part2 to 'lastname'
+        formContext.getAttribute("firstname").setValue(part1);
+        formContext.getAttribute("lastname").setValue(part2);
+    }
+}

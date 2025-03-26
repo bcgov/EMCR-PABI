@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{04d7f282-019c-4ce8-8352-7283be313aca}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab verticallayout="true" id="{0e61325a-379f-4d4c-96ed-1610e4b965c8}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a588c33a-9ddc-4c61-9f64-050f20763a4d}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a2ef5c74-bba2-4cb9-986e-bb1f88c09e4e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65c80977-790d-2603-625d-0018ac0c84c1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_regionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_regionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2f6da914-d465-4b9a-ac08-eb264fb6ac39}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Area / Community - Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

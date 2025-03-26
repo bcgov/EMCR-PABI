@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{904970f9-a94d-48ac-beab-81fe0526b2b3}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{4b0d9d7a-19f1-4b14-9b09-5fe007668d62}" IsUserDefined="1" name="{4b0d9d7a-19f1-4b14-9b09-5fe007668d62}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0e213655-3c70-4473-aa1e-2ed50ee7c67b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aef718ef-932f-43af-a879-ef7babf6a1db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Group/Team Name" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_name" uniqueid="{045e1788-3243-a7e2-1b79-3a5a755e33d0}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c068876f-00b2-4495-975f-bbea3f5cc04b}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{e132952d-66e7-ba1e-e2b0-368316145e30}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="{4b0d9d7a-19f1-4b14-9b09-5fe007668d62}_section_2" showlabel="true" showbar="true" locklevel="0" id="{13b862eb-7d9e-185b-e9c0-45a503167099}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Responsible Contacts" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b74de2cb-ab5b-547c-e28e-74dee972d8e8}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description="Responsible Contacts (Group/Team)" languagecode="1033" />
+                        </labels>
+                        <control id="responsibleContacts" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{743b870d-ea4b-dd58-a521-2a8b32944a7d}">
+                          <parameters>
+                            <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>pabi_group_to_responsiblecontactinregion</RelationshipName>
+                            <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <HeaderColorCode>#FEF7F5</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{743b870d-ea4b-dd58-a521-2a8b32944a7d}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>pabi_group_to_responsiblecontactinregion</RelationshipName>
+              <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>10</RecordsPerPage>
+              <HeaderColorCode>#FEF7F5</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+            <parameters>
+              <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>pabi_group_to_responsiblecontactinregion</RelationshipName>
+              <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>10</RecordsPerPage>
+              <HeaderColorCode>#FEF7F5</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>pabi_group_to_responsiblecontactinregion</RelationshipName>
+                <TargetEntityType>pabi_responsiblecontactinregionsandmunicipal</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{D4F4323B-8142-488B-9F8E-74268E4C4FCF},{796AE9E7-E1A1-EF11-B853-00505683FBF4}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Group/Team - Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

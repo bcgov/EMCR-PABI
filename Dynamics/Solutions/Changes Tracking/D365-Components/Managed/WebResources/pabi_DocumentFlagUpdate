@@ -1,0 +1,156 @@
+var form_Context = null;
+var formEntityName = '';
+function onLoad(executionContext) {
+    var formContext = executionContext === null || executionContext === void 0 ? void 0 : executionContext.getFormContext();
+    if (!formContext) {
+        LoggerInfo("formContext is null");
+        return;
+    }
+    formEntityName = formContext.data.entity.getEntityName();
+    form_Context = formContext;
+}
+
+function AddEventHandlersToTabs(executionContext) {
+
+    // Get all the tabs on the form
+    var tabs = executionContext.getFormContext().ui.tabs.get();
+    // Loop through each tab
+    tabs.forEach(function (tab) {
+        // Add an event handler for the tab state change event
+        tab.addTabStateChange(function () {
+            console.log("Tab " + tab.getName() + " loaded.");
+
+            switch (formEntityName) {
+                case 'pabi_responsiblecontactinregionsandmunicipal':
+                case 'account':
+                    //ReadDcoumentGridData(executionContext);
+                    break;
+                default:
+                    console.log(`Form Entity Name is unknown`);
+            }
+        });
+    });
+}
+
+//function ReadDcoumentGridData(executionContext) {
+//    setTimeout(function () {
+//        if (parent.$("li[aria-selected=true][aria-label=Documents]").length == 1) {
+//            var gridCount = parent.$("[role=gridcell] a").length;
+//            if (gridCount != undefined && gridCount > 0) {
+//                //DocumentUploadAction();
+//            }
+//            else if (gridCount != undefined && gridCount <= 0) {
+//                //DocumentDeleteAction();
+//            }
+//        }
+//    }, 1500);
+//}
+
+function AddFunctionOnDocumentUpload() {
+    return;
+    if (formEntityName == "pabi_responsiblecontactinregionsandmunicipal" || formEntityName == "account") {
+        setTimeout(function () {
+            parent.$("button[data-id='ok_id']").on("click", function () {
+                setTimeout(function () { DocumentUploadAction(); }, 500);
+            });
+        }, 600);
+    }
+}
+
+
+function DocumentUploadAction() {
+    //var gridCount = parent.$("[role=gridcell] a").length;
+    //Fetch record from SharePoint
+    console.log("DocumentUploadAction start");
+    try {
+        var fetchXml = '<fetch distinct="false" mapping="logical" returntotalrecordcount="true" page="1" count="10" no-lock="false"><entity name="sharepointdocument"><attribute name="documentid"/><attribute name="fullname"/><attribute name="relativelocation"/><attribute name="ischeckedout"/><attribute name="filetype"/><attribute name="absoluteurl"/>';
+        fetchXml = fetchXml + '<attribute name="locationname"/><order attribute="relativelocation" descending="false"/><filter><condition attribute="isrecursivefetch" operator="eq" value="0"/></filter><link-entity name="' + formEntityName + '" from="' + formEntityName + 'id" to="regardingobjectid" alias="bb"><filter type="and">';
+        fetchXml = fetchXml + '<condition attribute="' + formEntityName + 'id" operator="eq" uitype="' + formEntityName + '" value="' + form_Context.data.entity.getId() + '"/></filter></link-entity></entity></fetch>';
+        console.log("fetchXml : " + fetchXml);
+        var fetchQuery = "?fetchXml=" + encodeURIComponent(fetchXml);
+        console.log("fetchQuery : " + fetchQuery);
+
+        Xrm.WebApi.retrieveMultipleRecords("sharepointdocument", fetchQuery)
+            .then(function (result) {
+                console.log("result : " + result.entities?.length);
+                if (result.entities?.length > 0) {
+                    if (form_Context.getAttribute("pabi_documentsattached") != null || form_Context.getAttribute("pabi_documentsattached") != undefined) {
+                        console.log("Updating pabi_documentsattached flag as true");
+                        if (form_Context.getAttribute("pabi_documentsattached").getValue() !== true) {
+                            Xrm.Utility.showProgressIndicator("Uploading document, please wait...");
+                            form_Context.getAttribute("pabi_documentsattached").setValue(true);
+                            form_Context.data.save().then(function () { Xrm.Utility.closeProgressIndicator(); form_Context.data.refresh(true); }, function () { Xrm.Utility.closeProgressIndicator(); });
+                        }
+                        //if (form_Context.getAttribute("pabi_documentsattached").getValue() == null || form_Context.getAttribute("pabi_documentsattached").getValue() == false) {
+                        //    form_Context.getAttribute("pabi_documentsattached").setValue(true);
+                        //    //form_Context.data.refresh(save).then(successCallback, errorCallback);
+                        //    form_Context.data.save().then(function () { form_Context.data.refresh(true); });
+                        //    var data =
+                        //    {
+                        //        "pabi_documentsattached": true
+                        //    }
+                        //    // update the record
+                        //    //Xrm.WebApi.updateRecord(formEntityName, Xrm.Page.data.entity.getId(), data).then(
+                        //    //    function success(result) {
+                        //    //        console.log(formEntityName + " updated");
+                        //    //        form_Context.data.refresh(true);
+                        //    //    },
+                        //    //    function (error) {
+                        //    //        console.log(error.message);
+                        //    //    }
+                        //    //);
+                        //}
+                    }
+                }
+            }, function (error) {
+                console.log("Error in DocumentUploadAction : " + ex);
+            });
+    }
+    catch (ex) {
+        console.log("Error in DocumentUploadAction : " + ex);
+    }
+    console.log("DocumentUploadAction end");
+}
+
+function AddFunctionOnDocumentDelete() {
+    if (formEntityName == "pabi_responsiblecontactinregionsandmunicipal" || formEntityName == "account") {
+        setTimeout(function () {
+            parent.$("#confirmButton").on("click", function () {
+                setTimeout(function () { DocumentDeleteAction(); }, 500);
+            });
+        }, 600);
+    }
+}
+
+function DocumentDeleteAction() {
+    console.log("DocumentDeleteAction start");
+    try {
+        var fetchXml = '<fetch distinct="false" mapping="logical" returntotalrecordcount="true" page="1" count="10" no-lock="false"><entity name="sharepointdocument"><attribute name="documentid"/><attribute name="fullname"/><attribute name="relativelocation"/><attribute name="ischeckedout"/><attribute name="filetype"/><attribute name="absoluteurl"/>';
+        fetchXml = fetchXml + '<attribute name="locationname"/><order attribute="relativelocation" descending="false"/><filter><condition attribute="isrecursivefetch" operator="eq" value="0"/></filter><link-entity name="' + formEntityName + '" from="' + formEntityName + 'id" to="regardingobjectid" alias="bb"><filter type="and">';
+        fetchXml = fetchXml + '<condition attribute="' + formEntityName + 'id" operator="eq" uitype="' + formEntityName + '" value="' + form_Context.data.entity.getId() + '"/></filter></link-entity></entity></fetch>';
+        console.log("fetchXml : " + fetchXml);
+        var fetchQuery = "?fetchXml=" + encodeURIComponent(fetchXml);
+        console.log("fetchQuery : " + fetchQuery);
+
+        Xrm.WebApi.retrieveMultipleRecords("sharepointdocument", fetchQuery)
+            .then(function (result) {
+                console.log("result has value : " + result.entities?.length);
+                if (result.entities?.length <= 0) {
+                    if (form_Context.getAttribute("pabi_documentsattached") != null || form_Context.getAttribute("pabi_documentsattached") != undefined) {
+                        console.log("Updating pabi_documentsattached flag as false");
+                        if (form_Context.getAttribute("pabi_documentsattached").getValue() !== false) {
+                            Xrm.Utility.showProgressIndicator("Deleting document, please wait...");
+                            form_Context.getAttribute("pabi_documentsattached").setValue(false);
+                            form_Context.data.save().then(function () { Xrm.Utility.closeProgressIndicator(); form_Context.data.refresh(true); }, function () { Xrm.Utility.closeProgressIndicator(); });
+                        }
+                    }
+                }
+            }, function (error) {
+                console.log("Error in DocumentDeleteAction : " + ex);
+            });
+    }
+    catch (ex) {
+        console.log("Error in DocumentDeleteAction : " + ex);
+    }
+    console.log("DocumentDeleteAction end");
+}
