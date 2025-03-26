@@ -9,10 +9,15 @@
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.contact.Chart.Edit" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Chart.New.Hide" Location="Mscrm.HomepageGrid.contact.Chart.New" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Charts.Hide" Location="Mscrm.HomepageGrid.contact.Charts" />
+<<<<<<< HEAD
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Flows" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.FollowButton.Hide" Location="Mscrm.HomepageGrid.contact.FollowButton" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Meqf.Hide" Location="Mscrm.HomepageGrid.contact.Meqf" />
+=======
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.contact.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.FollowButton.Hide" Location="Mscrm.HomepageGrid.contact.FollowButton" />
+>>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.RunScript.Hide" Location="Mscrm.HomepageGrid.contact.RunScript" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.contact.RunWorkflow" />
     <HideCustomAction HideActionId="pabi.Mscrm.HomepageGrid.contact.UnfollowButton.Hide" Location="Mscrm.HomepageGrid.contact.UnfollowButton" />

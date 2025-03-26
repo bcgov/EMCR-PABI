@@ -24,7 +24,11 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="pabi_responsiblecontactinregionsandmunicipal">
+<<<<<<< HEAD
           <order attribute="pabi_contact_priority" descending="false" />
+=======
+          <order attribute="pabi_contact_priority" descending="true" />
+>>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
