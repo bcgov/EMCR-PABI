@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{69efab91-3732-4816-a18b-b00e12e18708}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{49764e33-f8a3-4a56-8797-ee01df363224}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{88ca0ad4-9b0c-41ca-8b3a-5845905a5f2c}" name="{88ca0ad4-9b0c-41ca-8b3a-5845905a5f2c}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{35abe22a-9d53-206b-8487-3012ae579e9d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_contactid" disabled="false" />
+                      </cell>
+                      <cell id="{86a1559b-4701-8ccc-7d31-25623ab55550}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Office Phone" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_officephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_officephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c8d9eaab-6d85-0b5b-9295-609d8a03142b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_regionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_regionid" disabled="false" />
+                      </cell>
+                      <cell id="{7318650d-c545-0eac-2aa8-e723ad39e46e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Pager" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_pager" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_pager" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01498e82-5b86-6293-706a-2e811cd5a421}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area/Community" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_areacommunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_areacommunityid" disabled="false" />
+                      </cell>
+                      <cell id="{ba21cbc8-be69-002c-71ab-4818d2a6a03c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cell" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_cell" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_cell" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9b6515e-18c2-1eea-ca4a-2aad10dbbd99}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Discipline/Organization" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_disciplineid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_disciplineid" disabled="false" />
+                      </cell>
+                      <cell id="{12081b72-756c-0e09-4575-6509462b88ee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Alternate Phone" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_alternatephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_alternatephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aed56570-79a0-c602-5991-18a3108567ae}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_contact_priority" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="pabi_contact_priority" disabled="false" />
+                      </cell>
+                      <cell id="{ed2daa66-6ece-0370-b4cb-6e67e7c539e5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_firstmeanofcontact" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="pabi_firstmeanofcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5120786-d12a-4075-8041-9284dfb63264}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact Roles" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pabi_name" uniqueid="{7947417d-3c4e-66d2-a585-5944b8400b50}" disabled="false" />
+                      </cell>
+                      <cell id="{09702431-b192-6e8a-6c98-e2dae3dd96ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email 1" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_email" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="pabi_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d3fc2084-efdd-4290-a2b3-bd1a0934f483}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{ec471de1-703e-a4da-5697-0863148a3329}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Special Notes" languagecode="1033" />
+                        </labels>
+                        <control id="pabi_specialnotes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="pabi_specialnotes" disabled="false" uniqueid="{56925d8d-3c7e-2792-5849-17333248a4a8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3919e25b-18d9-21c0-86ce-7458dc315888}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d122b59a-8753-1ed8-a43d-d3ea46661e4b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbc7a755-3a8c-b2b1-63e6-a22b4380d98d}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c28a95f0-f951-42e9-94bf-cd82f7a4e1b1}" columns="111">
+        <rows>
+          <row>
+            <cell id="{a47961d5-1d81-4c19-0a95-dbcccb52b579}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Area/Community" languagecode="1033" />
+              </labels>
+              <control id="header_pabi_areacommunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_areacommunityid" disabled="false" />
+            </cell>
+            <cell id="{66d35573-457b-2d7c-82e6-d70bd3231971}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Region" languagecode="1033" />
+              </labels>
+              <control id="header_pabi_regionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_regionid" disabled="false" />
+            </cell>
+            <cell id="{26c7566c-b558-db91-a922-425b8b015661}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Discipline/Organization" languagecode="1033" />
+              </labels>
+              <control id="header_pabi_disciplineid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pabi_disciplineid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8500" Area="Info" Id="navConnections" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Connections" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

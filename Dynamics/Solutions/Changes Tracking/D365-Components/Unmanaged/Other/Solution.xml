@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ImportExportXml version="9.1.30.9" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
-    <UniqueName>PABIDevOpsDynamicsSupport</UniqueName>
+    <UniqueName>D365ComponentsForChangesTrackingInDEV</UniqueName>
     <LocalizedNames>
-      <LocalizedName description="PABI - DevOps Dynamics Support" languagecode="1033" />
+      <LocalizedName description="D365 Components For Changes Tracking In DEV" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Contains :&#xA; - Dec 2024 Release: Contact Management Release R1.1.1 (DEVOPS-127,DEVOPS-134,DEVOPS-125,DEVOPS-136,DEVOPS-137,DEVOPS-138, DEVOPS-90, DEVOPS-91)&#xA; - Jul 2024 Release: Contact Management Release R1.1.0" languagecode="1033" />
+      <Description description="Purpose: This solution contains all the changes for our DevOps Support team to track the changes to the DEV environment.&#xA;⚠️This solution should NOT be imported to any other Dynamics environments." languagecode="1033" />
     </Descriptions>
-    <Version>1.1.3.0</Version>
+    <Version>1.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>embcpabi</UniqueName>
@@ -80,52 +80,128 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="account" behavior="1" />
-      <RootComponent type="1" schemaName="activitypointer" behavior="2" />
-      <RootComponent type="1" schemaName="annotation" behavior="2" />
-      <RootComponent type="1" schemaName="appointment" behavior="2" />
-      <RootComponent type="1" schemaName="connection" behavior="2" />
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="activitypointer" behavior="1" />
+      <RootComponent type="1" schemaName="annotation" behavior="1" />
+      <RootComponent type="1" schemaName="appointment" behavior="1" />
+      <RootComponent type="1" schemaName="connection" behavior="1" />
       <RootComponent type="1" schemaName="contact" behavior="1" />
-      <RootComponent type="1" schemaName="email" behavior="2" />
-      <RootComponent type="1" schemaName="fax" behavior="2" />
-      <RootComponent type="1" schemaName="letter" behavior="2" />
+      <RootComponent type="1" schemaName="email" behavior="1" />
+      <RootComponent type="1" schemaName="expiredprocess" behavior="0" />
+      <RootComponent type="1" schemaName="fax" behavior="1" />
+      <RootComponent type="1" schemaName="leadtoopportunitysalesprocess" behavior="0" />
+      <RootComponent type="1" schemaName="letter" behavior="1" />
+      <RootComponent type="1" schemaName="newprocess" behavior="0" />
+      <RootComponent type="1" schemaName="opportunity" behavior="1" />
+      <RootComponent type="1" schemaName="opportunitysalesprocess" behavior="0" />
+      <RootComponent type="1" schemaName="organization" behavior="0" />
       <RootComponent type="1" schemaName="pabi_areacommunity" behavior="0" />
       <RootComponent type="1" schemaName="pabi_designation" behavior="0" />
       <RootComponent type="1" schemaName="pabi_group" behavior="0" />
       <RootComponent type="1" schemaName="pabi_organizationgroupsandteam" behavior="0" />
       <RootComponent type="1" schemaName="pabi_region" behavior="0" />
-      <RootComponent type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" behavior="1" />
-      <RootComponent type="1" schemaName="phonecall" behavior="2" />
-      <RootComponent type="1" schemaName="processsession" behavior="2" />
-      <RootComponent type="1" schemaName="recurringappointmentmaster" behavior="2" />
-      <RootComponent type="1" schemaName="serviceappointment" behavior="2" />
+      <RootComponent type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" behavior="0" />
+      <RootComponent type="1" schemaName="phonecall" behavior="1" />
+      <RootComponent type="1" schemaName="phonetocaseprocess" behavior="0" />
+      <RootComponent type="1" schemaName="processsession" behavior="1" />
+      <RootComponent type="1" schemaName="recurringappointmentmaster" behavior="1" />
+      <RootComponent type="1" schemaName="serviceappointment" behavior="1" />
       <RootComponent type="1" schemaName="sharepointdocument" behavior="1" />
       <RootComponent type="1" schemaName="sharepointdocumentlocation" behavior="1" />
-      <RootComponent type="1" schemaName="socialactivity" behavior="2" />
-      <RootComponent type="1" schemaName="syncerror" behavior="2" />
+      <RootComponent type="1" schemaName="socialactivity" behavior="1" />
+      <RootComponent type="1" schemaName="syncerror" behavior="1" />
       <RootComponent type="1" schemaName="systemuser" behavior="1" />
-      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="1" schemaName="task" behavior="1" />
+      <RootComponent type="1" schemaName="translationprocess" behavior="0" />
       <RootComponent type="20" id="{1d08990e-91a3-ef11-b853-00505683fbf4}" behavior="0" />
       <RootComponent type="20" id="{5918b1e5-4bb1-ec11-b832-00505683fbf4}" behavior="0" />
       <RootComponent type="20" id="{61c80036-8284-ec11-b831-00505683fbf4}" behavior="0" />
       <RootComponent type="20" id="{94130312-8284-ec11-b831-00505683fbf4}" behavior="0" />
       <RootComponent type="20" id="{aedddfc4-deba-ee11-b84a-00505683fbf4}" behavior="0" />
+      <RootComponent type="29" id="{012df631-2af9-40c7-9f88-95dd1e7cd6d8}" behavior="0" />
+      <RootComponent type="29" id="{05ccb699-fcc1-4d85-b177-8f02d4e1d626}" behavior="0" />
+      <RootComponent type="29" id="{067c18f2-9fa7-4f1c-9aaf-e04aabe916b6}" behavior="0" />
+      <RootComponent type="29" id="{07fa57c6-38d3-4a5f-923f-bf98a013c810}" behavior="0" />
+      <RootComponent type="29" id="{082888d4-e09f-49d4-a98a-f8992f134db4}" behavior="0" />
+      <RootComponent type="29" id="{0a21c536-55f8-4e77-a25b-b8157ecc7545}" behavior="0" />
       <RootComponent type="29" id="{0ff96de2-e2a8-45aa-b1fd-f42ec20c662d}" behavior="0" />
+      <RootComponent type="29" id="{0ffbcde4-61c1-4355-aa89-aa1d7b2b8792}" behavior="0" />
+      <RootComponent type="29" id="{1163b3a2-1e48-449a-863f-8ec5aa487d43}" behavior="0" />
+      <RootComponent type="29" id="{127ed472-bb9c-4b29-bef4-b6fde047eb23}" behavior="0" />
+      <RootComponent type="29" id="{138acd55-4a5b-4fe8-9af7-abbe5b94745a}" behavior="0" />
+      <RootComponent type="29" id="{20adcbc8-02a4-4aaa-877f-03782ba5bcbb}" behavior="0" />
+      <RootComponent type="29" id="{213380e6-c868-4b8f-9856-74050b9b18ff}" behavior="0" />
+      <RootComponent type="29" id="{2564c2c5-d4d1-4cf8-ae3c-4785950ca905}" behavior="0" />
+      <RootComponent type="29" id="{28920155-1862-4b42-8209-80bce3694773}" behavior="0" />
+      <RootComponent type="29" id="{2a64eb83-11d7-4096-9c38-4432ed8120d5}" behavior="0" />
+      <RootComponent type="29" id="{2ace5248-0c19-4362-a39c-f1fb48e510bd}" behavior="0" />
       <RootComponent type="29" id="{2f3cdeb2-e15d-4cdf-b62a-5e2129a5c38a}" behavior="0" />
+      <RootComponent type="29" id="{391ca426-a8a7-47a3-bba1-7e36c0d5c115}" behavior="0" />
+      <RootComponent type="29" id="{3ac7d4a4-87c0-4f70-a38f-d1340c058b90}" behavior="0" />
+      <RootComponent type="29" id="{3d3c2cfd-5129-4edd-b04c-9d3eab5e385b}" behavior="0" />
+      <RootComponent type="29" id="{3e8ebee6-a2bc-4451-9c5f-b146b085413a}" behavior="0" />
+      <RootComponent type="29" id="{48b7e0d4-e092-4a94-a57e-68369db08f9f}" behavior="0" />
+      <RootComponent type="29" id="{5077133e-af79-4e19-b20b-b789f4c26e87}" behavior="0" />
+      <RootComponent type="29" id="{51f29484-a2e6-435f-a697-ff102894dbac}" behavior="0" />
+      <RootComponent type="29" id="{5667270f-10f1-47a9-a5d5-14b7743978ce}" behavior="0" />
+      <RootComponent type="29" id="{5c71cc78-523a-4bcb-8fe7-37d05ddcf2d4}" behavior="0" />
+      <RootComponent type="29" id="{5dd3dc0d-0ba9-49c6-950b-54f1edc4a709}" behavior="0" />
+      <RootComponent type="29" id="{5ffd3df1-9dbf-4061-b8ba-1d3f54ac4989}" behavior="0" />
+      <RootComponent type="29" id="{62018431-cedb-4b96-957f-1199ed050dc1}" behavior="0" />
+      <RootComponent type="29" id="{691ffe76-5385-4370-805a-a9a2c8bb282e}" behavior="0" />
+      <RootComponent type="29" id="{6b9a154a-68b3-43db-8951-84f0e63e3c5f}" behavior="0" />
+      <RootComponent type="29" id="{6e9a821b-3cbc-4f04-9619-f2b723fe4880}" behavior="0" />
+      <RootComponent type="29" id="{719964e2-e794-4c7d-9726-7e3518053707}" behavior="0" />
+      <RootComponent type="29" id="{74961954-a13b-4f2b-8b0f-e8ac49e0c27e}" behavior="0" />
+      <RootComponent type="29" id="{74d6ac86-648d-470c-9c5f-ed92f5555db7}" behavior="0" />
+      <RootComponent type="29" id="{7683fb8b-bc7f-4b85-867a-02f1fe22e0c6}" behavior="0" />
+      <RootComponent type="29" id="{76ee3067-8a7c-4a72-a17b-4f929e01a5ad}" behavior="0" />
+      <RootComponent type="29" id="{7d0b8073-7af3-4ea9-b7b2-ab87e7af30c5}" behavior="0" />
+      <RootComponent type="29" id="{7f58231a-bb06-4d70-80cd-a72c9aeccce7}" behavior="0" />
+      <RootComponent type="29" id="{7fc149e0-1147-4498-b550-fef151522d28}" behavior="0" />
+      <RootComponent type="29" id="{864c1cef-288f-4159-a661-37356d13bbab}" behavior="0" />
+      <RootComponent type="29" id="{86a0ed46-8512-449b-b814-eb9f032a8d05}" behavior="0" />
+      <RootComponent type="29" id="{8cf4b7c0-aeae-47a7-897d-1b7e16f2a865}" behavior="0" />
+      <RootComponent type="29" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" behavior="0" />
+      <RootComponent type="29" id="{942a3862-0b97-441f-8c9c-3b3a54dec9bc}" behavior="0" />
+      <RootComponent type="29" id="{9430e0a6-07b6-4e7d-9e49-1c4b087344b9}" behavior="0" />
+      <RootComponent type="29" id="{9637fb9d-c7fd-4dff-beb6-297118e6b6e7}" behavior="0" />
+      <RootComponent type="29" id="{9754866e-cb8d-4fe5-a3d2-e18357e9f3bc}" behavior="0" />
+      <RootComponent type="29" id="{a2f6f0d7-6cba-462e-83c4-65f263648ffa}" behavior="0" />
       <RootComponent type="29" id="{a43d2580-4a77-4d20-b074-d9278384dc6d}" behavior="0" />
-      <RootComponent type="60" id="{1546aa97-d77f-468a-acb1-628462ed3bc2}" behavior="0" />
-      <RootComponent type="60" id="{1fda9cfd-7ee0-41e9-a8b0-fe7528768bda}" />
-      <RootComponent type="60" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      <RootComponent type="29" id="{a5b09ca7-def0-48e2-9041-e7fb86835890}" behavior="0" />
+      <RootComponent type="29" id="{a669f139-4b28-409d-822d-03ca3941dde0}" behavior="0" />
+      <RootComponent type="29" id="{aa398fe7-4331-41ba-a71f-0a08b103eedb}" behavior="0" />
+      <RootComponent type="29" id="{ab81c1af-1a45-48d9-8133-3edc033dbeef}" behavior="0" />
+      <RootComponent type="29" id="{ad017c03-1589-46ba-9928-e6472632a671}" behavior="0" />
+      <RootComponent type="29" id="{ae6c9565-55c8-4040-85d8-ee37003b51ef}" behavior="0" />
+      <RootComponent type="29" id="{b445f581-2f14-4038-89fc-befd6393d78e}" behavior="0" />
+      <RootComponent type="29" id="{b68209ed-9a03-4b84-bd98-6b3f0f90e10a}" behavior="0" />
+      <RootComponent type="29" id="{bbae79bf-4ded-4b16-957e-b9db8554b4ea}" behavior="0" />
+      <RootComponent type="29" id="{bc809845-2b2e-4288-a297-9f8463c631de}" behavior="0" />
+      <RootComponent type="29" id="{bcd43793-5686-4fd4-b3b4-c0c26d6f7e40}" behavior="0" />
+      <RootComponent type="29" id="{bd57803e-0408-44d6-b21d-ae7158ec6555}" behavior="0" />
+      <RootComponent type="29" id="{cc49535c-e44b-4978-b6e1-e6ba2de7608c}" behavior="0" />
+      <RootComponent type="29" id="{d090c221-eba6-45a9-97b4-c9b2993e5714}" behavior="0" />
+      <RootComponent type="29" id="{d77bf74a-0c4f-4a86-9673-41a900af3750}" behavior="0" />
+      <RootComponent type="29" id="{d7dcb71d-83c5-4de9-a41c-0e4b160514f9}" behavior="0" />
+      <RootComponent type="29" id="{d9abf062-c703-440a-8cfe-599743aa9b93}" behavior="0" />
+      <RootComponent type="29" id="{dac93353-7157-487a-a6c4-8b7849b4c7c0}" behavior="0" />
+      <RootComponent type="29" id="{dca01491-092a-4d75-8766-e7022f1100c4}" behavior="0" />
+      <RootComponent type="29" id="{dd40b403-8ccd-4b0f-9dd4-29520b86a111}" behavior="0" />
+      <RootComponent type="29" id="{e10efdb6-4012-4ebf-879b-2f58b481efdd}" behavior="0" />
+      <RootComponent type="29" id="{e4f6e596-c2f7-4664-b911-8776582befa1}" behavior="0" />
+      <RootComponent type="29" id="{ece727b8-e6b4-4898-8a35-bbcdae753b4d}" behavior="0" />
+      <RootComponent type="29" id="{fb9f1643-42a6-454a-9063-0080a76ab8a2}" behavior="0" />
+      <RootComponent type="29" id="{fbd8fbc6-d8c8-4159-a59b-bdaa9402f107}" behavior="0" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" behavior="0" />
+      <RootComponent type="60" id="{26843818-6508-4afe-9342-5fae2ebf15ca}" />
       <RootComponent type="60" id="{29dca570-fc00-4eb8-8313-1ed343ef5958}" />
       <RootComponent type="60" id="{473d1427-a50e-45b8-a64e-e204078a9adb}" />
-      <RootComponent type="60" id="{75b8b3bf-1c1f-47d3-b6e2-1565073469b9}" />
-      <RootComponent type="60" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
       <RootComponent type="60" id="{7cfbe327-3240-4a7f-b45d-d0225224a349}" />
-      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" behavior="0" />
+      <RootComponent type="60" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
       <RootComponent type="60" id="{8af9d012-979b-483e-962b-1c2b0d6f62e2}" />
-      <RootComponent type="60" id="{b35fa736-59fa-4a96-925e-67d4133421f7}" />
-      <RootComponent type="60" id="{e2c8a79b-b278-4d15-a395-92354261ddc9}" />
-      <RootComponent type="60" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+      <RootComponent type="60" id="{a769690f-c29a-4495-8f06-1349f81de627}" />
       <RootComponent type="61" schemaName="pabi_/Scripts/SharePointUrl/Upload.html" behavior="0" />
       <RootComponent type="61" schemaName="pabi_BC_GOV_LOGO" behavior="0" />
       <RootComponent type="61" schemaName="pabi_disciplineandorganization" behavior="0" />
@@ -140,7 +216,55 @@
       <RootComponent type="62" schemaName="pabi_ContactManagement" behavior="0" />
       <RootComponent type="62" schemaName="pabi_PABI" behavior="0" />
       <RootComponent type="80" schemaName="pabi_PABI" behavior="0" />
+      <RootComponent type="9" schemaName="admin_settings" behavior="0" />
+      <RootComponent type="9" schemaName="admin_settings_feature" behavior="0" />
+      <RootComponent type="9" schemaName="allocationtype" behavior="0" />
+      <RootComponent type="9" schemaName="bookableresourcecharacteristictype" behavior="0" />
+      <RootComponent type="9" schemaName="botsharingroletypes" behavior="0" />
+      <RootComponent type="9" schemaName="budgetstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cardtype_isbasecard" behavior="0" />
+      <RootComponent type="9" schemaName="cardtype_isenabled" behavior="0" />
+      <RootComponent type="9" schemaName="cardtype_isliveonly" behavior="0" />
+      <RootComponent type="9" schemaName="cardtype_ispreviewcard" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_emailaccess" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_facebookaccess" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_haveprivilegeschanged" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_isguestprofile" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_phoneaccess" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_rateknowledgearticles" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_submitfeedback" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_twitteraccess" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_viewarticlerating" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_viewknowledgearticles" behavior="0" />
+      <RootComponent type="9" schemaName="channelaccessprofile_webaccess" behavior="0" />
+      <RootComponent type="9" schemaName="confirminterest" behavior="0" />
+      <RootComponent type="9" schemaName="connectionrole_category" behavior="0" />
+      <RootComponent type="9" schemaName="convert_campaign_response_options" behavior="0" />
+      <RootComponent type="9" schemaName="convert_campaign_response_qualify_lead_options" behavior="0" />
+      <RootComponent type="9" schemaName="convert_campaign_response_to_lead_disqualify_status" behavior="0" />
+      <RootComponent type="9" schemaName="convert_campaign_response_to_lead_option" behavior="0" />
+      <RootComponent type="9" schemaName="convert_campaign_response_to_lead_qualify_status" behavior="0" />
+      <RootComponent type="9" schemaName="decisionmaker" behavior="0" />
+      <RootComponent type="9" schemaName="entitytype" behavior="0" />
+      <RootComponent type="9" schemaName="evaluatefit" behavior="0" />
+      <RootComponent type="9" schemaName="identifycompetitors" behavior="0" />
+      <RootComponent type="9" schemaName="identifycustomercontacts" behavior="0" />
+      <RootComponent type="9" schemaName="identifypursuitteam" behavior="0" />
+      <RootComponent type="9" schemaName="incident_caseorigincode" behavior="0" />
+      <RootComponent type="9" schemaName="initialcommunication" behavior="0" />
+      <RootComponent type="9" schemaName="msdyn_bookableresourcetype" behavior="0" />
+      <RootComponent type="9" schemaName="msdyn_upgradestatus" behavior="0" />
+      <RootComponent type="9" schemaName="need" behavior="0" />
       <RootComponent type="9" schemaName="pabi_preferences" behavior="0" />
+      <RootComponent type="9" schemaName="processstage_category" behavior="0" />
+      <RootComponent type="9" schemaName="purchaseprocess" behavior="0" />
+      <RootComponent type="9" schemaName="purchasetimeframe" behavior="0" />
+      <RootComponent type="9" schemaName="quote_createrevisedquote" behavior="0" />
+      <RootComponent type="9" schemaName="serviceappointment_status" behavior="0" />
+      <RootComponent type="9" schemaName="sharepoint_generic_yes_no" behavior="0" />
+      <RootComponent type="9" schemaName="socialactivity_postmessagetype" behavior="0" />
+      <RootComponent type="9" schemaName="socialprofile_community" behavior="0" />
+      <RootComponent type="9" schemaName="socialprofile_isblocked" behavior="0" />
       <RootComponent type="91" id="{dc7507b6-2aeb-4199-beeb-01e8f89a824f}" schemaName="PABI.Crm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=632796618a21b4de" behavior="0" />
       <RootComponent type="91" id="{6d18528e-5958-4f66-97ce-b3cffc57c82e}" schemaName="Pabi.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c87d210092366287" behavior="0" />
       <RootComponent type="92" id="{644087d5-88b3-ee11-b849-00505683fbf4}" behavior="0" />
@@ -150,208 +274,948 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="39" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="38" type="62" schemaName="pabi_ContactManagement" />
+        <Required key="51" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="50" type="62" schemaName="pabi_ContactManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="40" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="38" type="62" schemaName="pabi_ContactManagement" />
+        <Required key="49" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="50" type="62" schemaName="pabi_ContactManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="1" schemaName="entitlement" displayName="Entitlement" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="126" type="1" schemaName="entitlement" displayName="Entitlement" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="58" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="58" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="38" type="62" schemaName="pabi_ContactManagement" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" displayName="Responsible Contact" solution="Active" />
-        <Dependent key="0" type="1" schemaName="pabi_responsiblecontactinregionsandmunicipal" displayName="Responsible Contact" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="8" type="2" schemaName="leadidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="1" schemaName="serviceappointment" displayName="Service Activity" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="1" type="1" schemaName="serviceappointment" displayName="Service Activity" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="9" type="2" schemaName="createdbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="13" type="60" displayName="Responsible Contact - Card" parentDisplayName="Responsible Contact" id="{1fda9cfd-7ee0-41e9-a8b0-fe7528768bda}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="10" type="2" schemaName="createdonbehalfbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="46" type="26" schemaName="Responsible Contacts" displayName="Responsible Contacts" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" id="{fd403513-1f8d-45d8-9afc-d22765fa2fee}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="12" type="2" schemaName="createdbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="47" type="26" schemaName="Responsible Contacts Lookup View" displayName="Responsible Contacts Lookup View" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" id="{8a8355af-aa8c-4b11-af65-c141ce0515fd}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="14" type="2" schemaName="modifiedbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="49" type="29" displayName="TBR - PABI - Responsible Contact - Populate Responsible contact Name" id="{a43d2580-4a77-4d20-b074-d9278384dc6d}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="15" type="2" schemaName="opportunityidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="9" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="17" type="2" schemaName="leadidyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="9" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="23" type="2" schemaName="processidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="13" type="60" displayName="Responsible Contact - Card" parentDisplayName="Responsible Contact" id="{1fda9cfd-7ee0-41e9-a8b0-fe7528768bda}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="24" type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="pabi_responsiblecontactinregionsandmunicipal" parentDisplayName="Responsible Contact" solution="Active" />
-        <Dependent key="15" type="60" displayName="Responsible Contact - Quick View" parentDisplayName="Responsible Contact" id="{e2c8a79b-b278-4d15-a395-92354261ddc9}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="27" type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="50" type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="serviceappointment" parentDisplayName="Service Activity" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="50" type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="serviceappointment" parentDisplayName="Service Activity" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="29" type="2" schemaName="transactioncurrencyidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="48" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
-        <Dependent key="48" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="31" type="2" schemaName="organizationidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001028}" />
-        <Dependent key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}" />
-        <Dependent key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="38" type="2" schemaName="activestageidname" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="4" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="43" type="2" schemaName="modifiedbyyominame" parentSchemaName="leadtoopportunitysalesprocess" parentDisplayName="Lead To Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-        <Dependent key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="52" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="50" type="62" schemaName="pabi_ContactManagement" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="60" displayName="Email" parentDisplayName="Email" solution="msdynce_Activities (9.0.1.2033)" id="{0d1e47ff-12b2-4f53-9090-bee951b98cb4}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="1" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="1" schemaName="opportunity" displayName="Opportunity" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="29" type="60" displayName="Case - Main" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="30" type="60" displayName="Tier 1 Dashboard" solution="msdynce_Service (9.0.5.56)" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="5" type="2" schemaName="activestageidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="60" displayName="Case Quick Create" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8e10b902-0b3e-441c-8b12-88e6c1793848}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="7" type="2" schemaName="quoteidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="32" type="60" displayName="Customer Service Representative Dashboard" solution="msdynce_Service (9.0.5.56)" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="16" type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="60" displayName="Case Reference Panel" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8ed8553f-b520-4fe3-b2e7-59eef8301486}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="18" type="2" schemaName="opportunityidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="60" displayName="Customer Service Manager Dashboard" solution="msdynce_Service (9.0.5.56)" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="19" type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="35" type="60" displayName="Customer Service Operations Dashboard" solution="msdynce_Service (9.0.5.56)" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="22" type="2" schemaName="salesorderidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="3" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="28" type="2" schemaName="processidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="21" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="34" type="2" schemaName="createdbyyominame" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="43" type="61" schemaName="AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" displayName="AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="42" type="62" schemaName="pabi_PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="35" type="2" schemaName="createdbyname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="36" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="27" type="80" schemaName="pabi_PABI" displayName="PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="37" type="2" schemaName="organizationidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="45" type="61" schemaName="Sales/_imgs/goalmanagement/RollupQuery.svg" displayName="Sales/_imgs/goalmanagement/RollupQuery.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
-        <Dependent key="42" type="62" schemaName="pabi_PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="39" type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="41" type="61" schemaName="Sales/_imgs/productgrid/Bundle.svg" displayName="Sales/_imgs/productgrid/Bundle.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
-        <Dependent key="42" type="62" schemaName="pabi_PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="44" type="2" schemaName="modifiedbyname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="44" type="61" schemaName="Sales/_imgs/productgrid/SalesTerritories.svg" displayName="Sales/_imgs/productgrid/SalesTerritories.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
-        <Dependent key="42" type="62" schemaName="pabi_PABI" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="45" type="2" schemaName="modifiedbyyominame" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="9" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="46" type="2" schemaName="transactioncurrencyidname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="16" type="60" displayName="Discipline/Organization - Quick Create" parentDisplayName="Discipline/Organization" id="{1546aa97-d77f-468a-acb1-628462ed3bc2}" />
+        <Required key="3" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="47" type="2" schemaName="createdonbehalfbyname" parentSchemaName="opportunitysalesprocess" parentDisplayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="23" type="60" displayName="Area / Community - Quick Create" parentDisplayName="Area/Community" id="{23dd60c8-bdd2-4caa-a1e7-0fc3896199bc}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="24" type="60" displayName="Area / Community - Main" parentDisplayName="Area/Community" id="{b081250d-5ead-44f1-bd95-8a81e3e9371f}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="6" type="2" schemaName="createdbyname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="18" type="60" displayName="Group/Team - Main" parentDisplayName="Group/Team" id="{904970f9-a94d-48ac-beab-81fe0526b2b3}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="11" type="2" schemaName="modifiedbyyominame" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="21" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="13" type="2" schemaName="incidentidname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="22" type="60" displayName="Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="20" type="2" schemaName="processidname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="24" type="60" displayName="Area / Community - Main" parentDisplayName="Area/Community" id="{b081250d-5ead-44f1-bd95-8a81e3e9371f}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="21" type="2" schemaName="activestageidname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="25" type="60" displayName="Title/Position - Main" parentDisplayName="Title/Position" id="{3b2692ee-c468-4491-a541-15e95cd77f8f}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="25" type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="9" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="26" type="2" schemaName="createdonbehalfbyname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="19" type="60" displayName="Contact - Main" parentDisplayName="Contact" id="{8af9d012-979b-483e-962b-1c2b0d6f62e2}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="30" type="2" schemaName="transactioncurrencyidname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="20" type="60" displayName="Responsible Contact - Quick Create" parentDisplayName="Responsible Contact" id="{b35fa736-59fa-4a96-925e-67d4133421f7}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="32" type="2" schemaName="modifiedbyname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="21" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="33" type="2" schemaName="organizationidname" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
-        <Dependent key="22" type="60" displayName="Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="40" type="2" schemaName="createdbyyominame" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="41" type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="42" type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="phonetocaseprocess" parentDisplayName="Phone To Case Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="serviceappointment" displayName="Service Activity" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="2" type="1" schemaName="serviceappointment" displayName="Service Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="2" schemaName="budgetamount" displayName="Budget Amount" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="2" schemaName="budgetamount" displayName="Budget Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="2" schemaName="closeprobability" displayName="Probability" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="98" type="2" schemaName="companyname" displayName="Company Name" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="2" schemaName="createdon" displayName="Created On" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="100" type="2" schemaName="currentsituation" displayName="Current Situation" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="2" schemaName="customerneed" displayName="Customer Need" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="2" schemaName="decisionmaker" displayName="Decision Maker?" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="104" type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="account" parentDisplayName="Discipline/Organization" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="2" schemaName="description" displayName="Description" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="2" schemaName="description" displayName="Brief Description of Damage/Loss" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="2" schemaName="emailaddress1" displayName="Email" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="estimatedclosedate" displayName="Est. Close Date" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="2" schemaName="estimatedvalue" displayName="Est. Revenue" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="2" schemaName="firstname" displayName="First Name" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="2" schemaName="incidentid" displayName="Case" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="2" schemaName="jobtitle" displayName="Job Title" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="2" schemaName="lastname" displayName="Last Name" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="2" schemaName="leadid" displayName="Lead" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="mobilephone" displayName="Mobile Phone" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="2" schemaName="opportunityratingcode" displayName="Rating" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="101" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="account" parentDisplayName="Discipline/Organization" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="2" schemaName="parentaccountid" displayName="Account" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="2" schemaName="parentcontactid" displayName="Contact" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="2" schemaName="prioritycode" displayName="Priority" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="2" schemaName="proposedsolution" displayName="Proposed Solution" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="serviceappointment" parentDisplayName="Service Activity" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="48" type="2" schemaName="regardingobjectid" displayName="Regarding" parentSchemaName="serviceappointment" parentDisplayName="Service Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="2" schemaName="resolveby" displayName="Resolve By" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="2" schemaName="responseby" displayName="First Response By" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="2" schemaName="subject" displayName="Topic" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="2" schemaName="subjectid" displayName="Subject" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="103" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="account" parentDisplayName="Discipline/Organization" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="2" schemaName="ticketnumber" displayName="Case Number" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="2" schemaName="title" displayName="Case Title" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="65" type="60" displayName="After Meeting" parentDisplayName="Appointment" id="{7f58467b-ab43-447c-ab95-29deea3b1e35}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Discipline/Organization" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
+        <Dependent key="108" type="60" displayName="Accounts Dashboard" parentDisplayName="Discipline/Organization" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="163" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent key="163" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Dependent key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="164" type="29" displayName="PostOrganizationProvisioningStatus" solution="AutoDataCapture (9.0.2012.3000)" id="{fb9f1643-42a6-454a-9063-0080a76ab8a2}" />
+        <Dependent key="164" type="29" displayName="PostOrganizationProvisioningStatus" id="{fb9f1643-42a6-454a-9063-0080a76ab8a2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="165" type="29" displayName="Get Search providers for federated search feature" solution="msdynce_KnowledgeManagementFeatures (9.0.1.3532)" id="{7683fb8b-bc7f-4b85-867a-02f1fe22e0c6}" />
+        <Dependent key="165" type="29" displayName="Get Search providers for federated search feature" id="{7683fb8b-bc7f-4b85-867a-02f1fe22e0c6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="166" type="29" displayName="Sales Insights get RI provisioning status" solution="SICommon (9.0.2.1547)" id="{20adcbc8-02a4-4aaa-877f-03782ba5bcbb}" />
+        <Dependent key="166" type="29" displayName="Sales Insights get RI provisioning status" id="{20adcbc8-02a4-4aaa-877f-03782ba5bcbb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="167" type="29" displayName="Sales Insights retrieve KPI values from DCI" solution="SICommon (9.0.2.1547)" id="{a669f139-4b28-409d-822d-03ca3941dde0}" />
+        <Dependent key="167" type="29" displayName="Sales Insights retrieve KPI values from DCI" id="{a669f139-4b28-409d-822d-03ca3941dde0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="168" type="29" displayName="QueryExchange" solution="AutoDataCapture (9.0.2012.3000)" id="{aa398fe7-4331-41ba-a71f-0a08b103eedb}" />
+        <Dependent key="168" type="29" displayName="QueryExchange" id="{aa398fe7-4331-41ba-a71f-0a08b103eedb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="169" type="29" displayName="TrackExchangeActivity" solution="AutoDataCapture (9.0.2012.3000)" id="{d7dcb71d-83c5-4de9-a41c-0e4b160514f9}" />
+        <Dependent key="169" type="29" displayName="TrackExchangeActivity" id="{d7dcb71d-83c5-4de9-a41c-0e4b160514f9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="170" type="29" displayName="Update Auto Capture dialog settings" solution="AutoDataCapture (9.0.2012.3000)" id="{62018431-cedb-4b96-957f-1199ed050dc1}" />
+        <Dependent key="170" type="29" displayName="Update Auto Capture dialog settings" id="{62018431-cedb-4b96-957f-1199ed050dc1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="171" type="29" displayName="Sales Insights CES API Handler" solution="SICommon (9.0.2.1547)" id="{5667270f-10f1-47a9-a5d5-14b7743978ce}" />
+        <Dependent key="171" type="29" displayName="Sales Insights CES API Handler" id="{5667270f-10f1-47a9-a5d5-14b7743978ce}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="172" type="29" displayName="Sales Insights update feature config" solution="SICommon (9.0.2.1547)" id="{8cf4b7c0-aeae-47a7-897d-1b7e16f2a865}" />
+        <Dependent key="172" type="29" displayName="Sales Insights update feature config" id="{8cf4b7c0-aeae-47a7-897d-1b7e16f2a865}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="173" type="29" displayName="Sales Insights feedback" solution="SICommon (9.0.2.1547)" id="{9430e0a6-07b6-4e7d-9e49-1c4b087344b9}" />
+        <Dependent key="173" type="29" displayName="Sales Insights feedback" id="{9430e0a6-07b6-4e7d-9e49-1c4b087344b9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="174" type="29" displayName="Sales Insights start RI provisioning" solution="SICommon (9.0.2.1547)" id="{5ffd3df1-9dbf-4061-b8ba-1d3f54ac4989}" />
+        <Dependent key="174" type="29" displayName="Sales Insights start RI provisioning" id="{5ffd3df1-9dbf-4061-b8ba-1d3f54ac4989}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="175" type="29" displayName="Sales Insights GDPR optout user" solution="SICommon (9.0.2.1547)" id="{dd40b403-8ccd-4b0f-9dd4-29520b86a111}" />
+        <Dependent key="175" type="29" displayName="Sales Insights GDPR optout user" id="{dd40b403-8ccd-4b0f-9dd4-29520b86a111}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="176" type="29" displayName="ManageContractState" solution="msdynce_Service (9.0.5.56)" id="{9637fb9d-c7fd-4dff-beb6-297118e6b6e7}" />
+        <Dependent key="176" type="29" displayName="ManageContractState" id="{9637fb9d-c7fd-4dff-beb6-297118e6b6e7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="177" type="29" displayName="Sales Insights get TalkingPoints" solution="msdynce_Talkingpoints (9.0.1.701283)" id="{e10efdb6-4012-4ebf-879b-2f58b481efdd}" />
+        <Dependent key="177" type="29" displayName="Sales Insights get TalkingPoints" id="{e10efdb6-4012-4ebf-879b-2f58b481efdd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="178" type="29" displayName="Sales Insights get NotesAnalysis" solution="msdynce_Notesanalysis (9.0.1.701213)" id="{864c1cef-288f-4159-a661-37356d13bbab}" />
+        <Dependent key="178" type="29" displayName="Sales Insights get NotesAnalysis" id="{864c1cef-288f-4159-a661-37356d13bbab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="179" type="29" displayName="Sales Insights set legal acceptance status" solution="SICommon (9.0.2.1547)" id="{5c71cc78-523a-4bcb-8fe7-37d05ddcf2d4}" />
+        <Dependent key="179" type="29" displayName="Sales Insights set legal acceptance status" id="{5c71cc78-523a-4bcb-8fe7-37d05ddcf2d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="180" type="29" displayName="MarketingMetadataUpdatePostImport" solution="msdynce_MarketingEntitiesUpdateMetadata (9.0.5.0)" id="{942a3862-0b97-441f-8c9c-3b3a54dec9bc}" />
+        <Dependent key="180" type="29" displayName="MarketingMetadataUpdatePostImport" id="{942a3862-0b97-441f-8c9c-3b3a54dec9bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="181" type="29" displayName="Sales Insights set TalkingPoint linked status" solution="msdynce_Talkingpoints (9.0.1.701283)" id="{d77bf74a-0c4f-4a86-9673-41a900af3750}" />
+        <Dependent key="181" type="29" displayName="Sales Insights set TalkingPoint linked status" id="{d77bf74a-0c4f-4a86-9673-41a900af3750}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="182" type="29" displayName="CreateSuggestedActivity" solution="AutoDataCapture (9.0.2012.3000)" id="{2a64eb83-11d7-4096-9c38-4432ed8120d5}" />
+        <Dependent key="182" type="29" displayName="CreateSuggestedActivity" id="{2a64eb83-11d7-4096-9c38-4432ed8120d5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="183" type="29" displayName="Sales Insights get ACI mars connector status" solution="SICommon (9.0.2.1547)" id="{2564c2c5-d4d1-4cf8-ae3c-4785950ca905}" />
+        <Dependent key="183" type="29" displayName="Sales Insights get ACI mars connector status" id="{2564c2c5-d4d1-4cf8-ae3c-4785950ca905}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="184" type="29" displayName="PostRetrieveRealTimeSuggestedActivities" solution="AutoDataCapture (9.0.2012.3000)" id="{76ee3067-8a7c-4a72-a17b-4f929e01a5ad}" />
+        <Dependent key="184" type="29" displayName="PostRetrieveRealTimeSuggestedActivities" id="{76ee3067-8a7c-4a72-a17b-4f929e01a5ad}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="185" type="29" displayName="ManageEntitlementState" solution="msdynce_Service (9.0.5.56)" id="{5dd3dc0d-0ba9-49c6-950b-54f1edc4a709}" />
+        <Dependent key="185" type="29" displayName="ManageEntitlementState" id="{5dd3dc0d-0ba9-49c6-950b-54f1edc4a709}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="186" type="29" displayName="GetTimeLineRecords" solution="AutoDataCapture (9.0.2012.3000)" id="{a2f6f0d7-6cba-462e-83c4-65f263648ffa}" />
+        <Dependent key="186" type="29" displayName="GetTimeLineRecords" id="{a2f6f0d7-6cba-462e-83c4-65f263648ffa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="187" type="29" displayName="Sales Insights GDPR optout lead" solution="SICommon (9.0.2.1547)" id="{48b7e0d4-e092-4a94-a57e-68369db08f9f}" />
+        <Dependent key="187" type="29" displayName="Sales Insights GDPR optout lead" id="{48b7e0d4-e092-4a94-a57e-68369db08f9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="188" type="29" displayName="UpdateUserConsentBasedonSecurityRoles" solution="AutoDataCapture (9.0.2012.3000)" id="{b68209ed-9a03-4b84-bd98-6b3f0f90e10a}" />
+        <Dependent key="188" type="29" displayName="UpdateUserConsentBasedonSecurityRoles" id="{b68209ed-9a03-4b84-bd98-6b3f0f90e10a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="189" type="29" displayName="DismissSuggestedContact" solution="AutoDataCapture (9.0.2012.3000)" id="{213380e6-c868-4b8f-9856-74050b9b18ff}" />
+        <Dependent key="189" type="29" displayName="DismissSuggestedContact" id="{213380e6-c868-4b8f-9856-74050b9b18ff}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="190" type="29" displayName="Sales Insights delete flow" solution="Relationshipassistant (9.0.1.701360)" id="{719964e2-e794-4c7d-9726-7e3518053707}" />
+        <Dependent key="190" type="29" displayName="Sales Insights delete flow" id="{719964e2-e794-4c7d-9726-7e3518053707}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="191" type="29" displayName="AddSuggestedCards" solution="AutoDataCapture (9.0.2012.3000)" id="{391ca426-a8a7-47a3-bba1-7e36c0d5c115}" />
+        <Dependent key="191" type="29" displayName="AddSuggestedCards" id="{391ca426-a8a7-47a3-bba1-7e36c0d5c115}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="192" type="29" displayName="Update Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{28920155-1862-4b42-8209-80bce3694773}" />
+        <Dependent key="192" type="29" displayName="Update Contact" id="{28920155-1862-4b42-8209-80bce3694773}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="193" type="29" displayName="Sales Insights get legal acceptance status" solution="SICommon (9.0.2.1547)" id="{6b9a154a-68b3-43db-8951-84f0e63e3c5f}" />
+        <Dependent key="193" type="29" displayName="Sales Insights get legal acceptance status" id="{6b9a154a-68b3-43db-8951-84f0e63e3c5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="194" type="29" displayName="ManageContractLineState" solution="msdynce_Service (9.0.5.56)" id="{e4f6e596-c2f7-4664-b911-8776582befa1}" />
+        <Dependent key="194" type="29" displayName="ManageContractLineState" id="{e4f6e596-c2f7-4664-b911-8776582befa1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="195" type="29" displayName="Sales Insights GDPR optout contact" solution="SICommon (9.0.2.1547)" id="{dac93353-7157-487a-a6c4-8b7849b4c7c0}" />
+        <Dependent key="195" type="29" displayName="Sales Insights GDPR optout contact" id="{dac93353-7157-487a-a6c4-8b7849b4c7c0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="196" type="29" displayName="Sales Insights get SI license status" solution="SICommon (9.0.2.1547)" id="{1163b3a2-1e48-449a-863f-8ec5aa487d43}" />
+        <Dependent key="196" type="29" displayName="Sales Insights get SI license status" id="{1163b3a2-1e48-449a-863f-8ec5aa487d43}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="197" type="29" displayName="Sales Insights set feature status" solution="SICommon (9.0.2.1547)" id="{05ccb699-fcc1-4d85-b177-8f02d4e1d626}" />
+        <Dependent key="197" type="29" displayName="Sales Insights set feature status" id="{05ccb699-fcc1-4d85-b177-8f02d4e1d626}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="198" type="29" displayName="Sales Insights get SI package status" solution="SICommon (9.0.2.1547)" id="{012df631-2af9-40c7-9f88-95dd1e7cd6d8}" />
+        <Dependent key="198" type="29" displayName="Sales Insights get SI package status" id="{012df631-2af9-40c7-9f88-95dd1e7cd6d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="199" type="29" displayName="DismissSuggestedActivity" solution="AutoDataCapture (9.0.2012.3000)" id="{3d3c2cfd-5129-4edd-b04c-9d3eab5e385b}" />
+        <Dependent key="199" type="29" displayName="DismissSuggestedActivity" id="{3d3c2cfd-5129-4edd-b04c-9d3eab5e385b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="200" type="29" displayName="MarketingListMetadataUpdate" solution="msdynce_MarketingUpdateListMetadata (9.0.5.1)" id="{bc809845-2b2e-4288-a297-9f8463c631de}" />
+        <Dependent key="200" type="29" displayName="MarketingListMetadataUpdate" id="{bc809845-2b2e-4288-a297-9f8463c631de}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="201" type="29" displayName="Lead to Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" />
+        <Dependent key="201" type="29" displayName="Lead to Opportunity Sales Process" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="202" type="29" displayName="Get Knowledge article suggestions" solution="msdynce_KnowledgeManagementFeatures (9.0.1.3532)" id="{7f58231a-bb06-4d70-80cd-a72c9aeccce7}" />
+        <Dependent key="202" type="29" displayName="Get Knowledge article suggestions" id="{7f58231a-bb06-4d70-80cd-a72c9aeccce7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="203" type="29" displayName="GetUserConsentStatus" solution="AutoDataCapture (9.0.2012.3000)" id="{691ffe76-5385-4370-805a-a9a2c8bb282e}" />
+        <Dependent key="203" type="29" displayName="GetUserConsentStatus" id="{691ffe76-5385-4370-805a-a9a2c8bb282e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="204" type="29" displayName="Phone to Case Process" solution="msdynce_Service (9.0.5.56)" id="{0ffbcde4-61c1-4355-aa89-aa1d7b2b8792}" />
+        <Dependent key="204" type="29" displayName="Phone to Case Process" id="{0ffbcde4-61c1-4355-aa89-aa1d7b2b8792}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="205" type="29" displayName="Sales Insights get Feature configuration" solution="SICommon (9.0.2.1547)" id="{7d0b8073-7af3-4ea9-b7b2-ab87e7af30c5}" />
+        <Dependent key="205" type="29" displayName="Sales Insights get Feature configuration" id="{7d0b8073-7af3-4ea9-b7b2-ab87e7af30c5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="206" type="29" displayName="Follow up with Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{138acd55-4a5b-4fe8-9af7-abbe5b94745a}" />
+        <Dependent key="206" type="29" displayName="Follow up with Opportunity" id="{138acd55-4a5b-4fe8-9af7-abbe5b94745a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="207" type="29" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" id="{3e8ebee6-a2bc-4451-9c5f-b146b085413a}" />
+        <Dependent key="207" type="29" displayName="Opportunity Sales Process" id="{3e8ebee6-a2bc-4451-9c5f-b146b085413a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="208" type="29" displayName="Sales Insights execute SI Sample Data request" solution="SICommon (9.0.2.1547)" id="{127ed472-bb9c-4b29-bef4-b6fde047eb23}" />
+        <Dependent key="208" type="29" displayName="Sales Insights execute SI Sample Data request" id="{127ed472-bb9c-4b29-bef4-b6fde047eb23}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="209" type="29" displayName="Sales Insights get service base URL" solution="SICommon (9.0.2.1547)" id="{5077133e-af79-4e19-b20b-b789f4c26e87}" />
+        <Dependent key="209" type="29" displayName="Sales Insights get service base URL" id="{5077133e-af79-4e19-b20b-b789f4c26e87}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="210" type="29" displayName="Sales Insights start ODOS provisioning" solution="SICommon (9.0.2.1547)" id="{0a21c536-55f8-4e77-a25b-b8157ecc7545}" />
+        <Dependent key="210" type="29" displayName="Sales Insights start ODOS provisioning" id="{0a21c536-55f8-4e77-a25b-b8157ecc7545}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="211" type="29" displayName="Dismiss EmailInfra based ActionCards" solution="Relationshipassistant (9.0.1.701360)" id="{bbae79bf-4ded-4b16-957e-b9db8554b4ea}" />
+        <Dependent key="211" type="29" displayName="Dismiss EmailInfra based ActionCards" id="{bbae79bf-4ded-4b16-957e-b9db8554b4ea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="212" type="29" displayName="Sales Insights get RI tenant endpoint" solution="SICommon (9.0.2.1547)" id="{ece727b8-e6b4-4898-8a35-bbcdae753b4d}" />
+        <Dependent key="212" type="29" displayName="Sales Insights get RI tenant endpoint" id="{ece727b8-e6b4-4898-8a35-bbcdae753b4d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="213" type="29" displayName="MarketingMetadataUpdate" solution="msdynce_MarketingEntitiesUpdateMetadata (9.0.5.0)" id="{fbd8fbc6-d8c8-4159-a59b-bdaa9402f107}" />
+        <Dependent key="213" type="29" displayName="MarketingMetadataUpdate" id="{fbd8fbc6-d8c8-4159-a59b-bdaa9402f107}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="214" type="29" displayName="RetrieveActivities" solution="AutoDataCapture (9.0.2012.3000)" id="{b445f581-2f14-4038-89fc-befd6393d78e}" />
+        <Dependent key="214" type="29" displayName="RetrieveActivities" id="{b445f581-2f14-4038-89fc-befd6393d78e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="215" type="29" displayName="Service Calendar Action" solution="msdynce_ServicePatch201911 (9.0.20093.1069)" id="{07fa57c6-38d3-4a5f-923f-bf98a013c810}" />
+        <Dependent key="215" type="29" displayName="Service Calendar Action" id="{07fa57c6-38d3-4a5f-923f-bf98a013c810}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="216" type="29" displayName="Sales Insights perform NotesAnalysis action" solution="msdynce_Notesanalysis (9.0.1.701213)" id="{d090c221-eba6-45a9-97b4-c9b2993e5714}" />
+        <Dependent key="216" type="29" displayName="Sales Insights perform NotesAnalysis action" id="{d090c221-eba6-45a9-97b4-c9b2993e5714}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="217" type="29" displayName="Get FCB Status" solution="SICommon (9.0.2.1547)" id="{3ac7d4a4-87c0-4f70-a38f-d1340c058b90}" />
+        <Dependent key="217" type="29" displayName="Get FCB Status" id="{3ac7d4a4-87c0-4f70-a38f-d1340c058b90}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="218" type="29" displayName="GetAutoCaptureUri" solution="AutoDataCapture (9.0.2012.3000)" id="{067c18f2-9fa7-4f1c-9aaf-e04aabe916b6}" />
+        <Dependent key="218" type="29" displayName="GetAutoCaptureUri" id="{067c18f2-9fa7-4f1c-9aaf-e04aabe916b6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="219" type="29" displayName="PostOperationRevokeUsrConsent" solution="AutoDataCapture (9.0.2012.3000)" id="{9754866e-cb8d-4fe5-a3d2-e18357e9f3bc}" />
+        <Dependent key="219" type="29" displayName="PostOperationRevokeUsrConsent" id="{9754866e-cb8d-4fe5-a3d2-e18357e9f3bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="220" type="29" displayName="EditAndSaveSuggestedContact" solution="AutoDataCapture (9.0.2012.3000)" id="{ad017c03-1589-46ba-9928-e6472632a671}" />
+        <Dependent key="220" type="29" displayName="EditAndSaveSuggestedContact" id="{ad017c03-1589-46ba-9928-e6472632a671}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="221" type="29" displayName="Sales Insights create similar opportunitiy prediction model" solution="SICommon (9.0.2.1547)" id="{cc49535c-e44b-4978-b6e1-e6ba2de7608c}" />
+        <Dependent key="221" type="29" displayName="Sales Insights create similar opportunitiy prediction model" id="{cc49535c-e44b-4978-b6e1-e6ba2de7608c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="222" type="29" displayName="Sales Insights retrieve type values from DCI" solution="SICommon (9.0.2.1547)" id="{dca01491-092a-4d75-8766-e7022f1100c4}" />
+        <Dependent key="222" type="29" displayName="Sales Insights retrieve type values from DCI" id="{dca01491-092a-4d75-8766-e7022f1100c4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="223" type="29" displayName="GetOrganizationProvisioningStatus" solution="AutoDataCapture (9.0.2012.3000)" id="{a5b09ca7-def0-48e2-9041-e7fb86835890}" />
+        <Dependent key="223" type="29" displayName="GetOrganizationProvisioningStatus" id="{a5b09ca7-def0-48e2-9041-e7fb86835890}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="224" type="29" displayName="Sales Insights update RI tenant info" solution="SICommon (9.0.2.1547)" id="{74961954-a13b-4f2b-8b0f-e8ac49e0c27e}" />
+        <Dependent key="224" type="29" displayName="Sales Insights update RI tenant info" id="{74961954-a13b-4f2b-8b0f-e8ac49e0c27e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="225" type="29" displayName="GetKAObjectFromTemplate" solution="msdynce_KnowledgeManagementFeatures (9.0.1.3532)" id="{86a0ed46-8512-449b-b814-eb9f032a8d05}" />
+        <Dependent key="225" type="29" displayName="GetKAObjectFromTemplate" id="{86a0ed46-8512-449b-b814-eb9f032a8d05}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="226" type="29" displayName="Snooze EmailInfra based ActionCards" solution="Relationshipassistant (9.0.1.701360)" id="{74d6ac86-648d-470c-9c5f-ed92f5555db7}" />
+        <Dependent key="226" type="29" displayName="Snooze EmailInfra based ActionCards" id="{74d6ac86-648d-470c-9c5f-ed92f5555db7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="227" type="29" displayName="CreateSuggestedContact" solution="AutoDataCapture (9.0.2012.3000)" id="{ae6c9565-55c8-4040-85d8-ee37003b51ef}" />
+        <Dependent key="227" type="29" displayName="CreateSuggestedContact" id="{ae6c9565-55c8-4040-85d8-ee37003b51ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="228" type="29" displayName="RemoveMarketingListMembersByIds" solution="msdynce_MarketingPatch (9.0.1904.1019)" id="{2ace5248-0c19-4362-a39c-f1fb48e510bd}" />
+        <Dependent key="228" type="29" displayName="RemoveMarketingListMembersByIds" id="{2ace5248-0c19-4362-a39c-f1fb48e510bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="229" type="29" displayName="After Meeting" solution="msdynce_SalesService (9.0.4.29)" id="{6e9a821b-3cbc-4f04-9619-f2b723fe4880}" />
+        <Dependent key="229" type="29" displayName="After Meeting" id="{6e9a821b-3cbc-4f04-9619-f2b723fe4880}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="230" type="29" displayName="Sales Insights retrieve KPI values from RI" solution="SICommon (9.0.2.1547)" id="{082888d4-e09f-49d4-a98a-f8992f134db4}" />
+        <Dependent key="230" type="29" displayName="Sales Insights retrieve KPI values from RI" id="{082888d4-e09f-49d4-a98a-f8992f134db4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="231" type="29" displayName="Get RICommon FCB Status" solution="SICommon (9.0.2.1547)" id="{7fc149e0-1147-4498-b550-fef151522d28}" />
+        <Dependent key="231" type="29" displayName="Get RICommon FCB Status" id="{7fc149e0-1147-4498-b550-fef151522d28}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="232" type="29" displayName="Sales Insights execute SI request" solution="SICommon (9.0.2.1547)" id="{51f29484-a2e6-435f-a697-ff102894dbac}" />
+        <Dependent key="232" type="29" displayName="Sales Insights execute SI request" id="{51f29484-a2e6-435f-a697-ff102894dbac}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="233" type="50" schemaName=":RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" solution="ActivityFeedsCore (9.0.0.0004)" />
+        <Dependent key="234" type="50" schemaName="pabi_responsiblecontactinregionsandmunicipal:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}" />
+        <Dependent key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Dependent key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="108" type="60" displayName="Accounts Dashboard" parentDisplayName="Discipline/Organization" solution="msdynce_Service (9.0.5.56)" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+        <Dependent key="108" type="60" displayName="Accounts Dashboard" parentDisplayName="Discipline/Organization" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="109" type="60" displayName="Account for Interactive experience" parentDisplayName="Discipline/Organization" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="109" type="60" displayName="Account for Interactive experience" parentDisplayName="Discipline/Organization" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+        <Dependent key="109" type="60" displayName="Account for Interactive experience" parentDisplayName="Discipline/Organization" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="60" displayName="Follow up with Opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{a769690f-c29a-4495-8f06-1349f81de627}" />
+        <Dependent key="110" type="60" displayName="Follow up with Opportunity" parentDisplayName="Opportunity" id="{a769690f-c29a-4495-8f06-1349f81de627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="60" displayName="Update Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{26843818-6508-4afe-9342-5fae2ebf15ca}" />
+        <Dependent key="111" type="60" displayName="Update Contact" parentDisplayName="Contact" id="{26843818-6508-4afe-9342-5fae2ebf15ca}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="127" type="60" displayName="Customer Service Operations Dashboard" solution="msdynce_Service (9.0.5.56)" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="128" type="60" displayName="Case Reference Panel" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8ed8553f-b520-4fe3-b2e7-59eef8301486}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="129" type="60" displayName="Tier 1 Dashboard" solution="msdynce_Service (9.0.5.56)" id="{d201a642-6283-4f1d-81b7-da4b1685e698}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="130" type="60" displayName="Case Quick Create" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{8e10b902-0b3e-441c-8b12-88e6c1793848}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="131" type="60" displayName="Customer Service Representative Dashboard" solution="msdynce_Service (9.0.5.56)" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="132" type="60" displayName="Case - Main" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="133" type="60" displayName="Customer Service Manager Dashboard" solution="msdynce_Service (9.0.5.56)" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="134" type="60" displayName="Email" parentDisplayName="Email" solution="msdynce_Activities (9.0.1.2033)" id="{0d1e47ff-12b2-4f53-9090-bee951b98cb4}" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="59" type="60" displayName="Account" parentDisplayName="Discipline/Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="109" type="60" displayName="Account for Interactive experience" parentDisplayName="Discipline/Organization" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="121" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="61" schemaName="AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" displayName="AppCommon/ControlWS/SummaryPageImages/LeadsNContacts_HighContrast.svg" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="54" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="105" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0004)" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="135" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="125" type="80" schemaName="pabi_PABI" displayName="Contacts" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0004)" />
+        <Dependent key="102" type="60" displayName="Information" parentDisplayName="Discipline/Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="61" schemaName="Sales/_imgs/goalmanagement/RollupQuery.svg" displayName="Sales/_imgs/goalmanagement/RollupQuery.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="54" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="61" schemaName="Sales/_imgs/productgrid/Bundle.svg" displayName="Sales/_imgs/productgrid/Bundle.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="54" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="61" schemaName="Sales/_imgs/productgrid/SalesTerritories.svg" displayName="Sales/_imgs/productgrid/SalesTerritories.svg" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="54" type="62" schemaName="pabi_PABI" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="113" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="115" type="60" displayName="Discipline/Organization - Quick Create" parentDisplayName="Discipline/Organization" id="{1546aa97-d77f-468a-acb1-628462ed3bc2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="116" type="60" displayName="Area / Community - Quick Create" parentDisplayName="Area/Community" id="{23dd60c8-bdd2-4caa-a1e7-0fc3896199bc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="117" type="60" displayName="Area / Community - Main" parentDisplayName="Area/Community" id="{b081250d-5ead-44f1-bd95-8a81e3e9371f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="117" type="60" displayName="Area / Community - Main" parentDisplayName="Area/Community" id="{b081250d-5ead-44f1-bd95-8a81e3e9371f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="119" type="60" displayName="Group/Team - Main" parentDisplayName="Group/Team" id="{904970f9-a94d-48ac-beab-81fe0526b2b3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="120" type="60" displayName="Title/Position - Main" parentDisplayName="Title/Position" id="{3b2692ee-c468-4491-a541-15e95cd77f8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="121" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="118" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="122" type="60" displayName="Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="113" type="60" displayName="Responsible Contact - Main Form" parentDisplayName="Responsible Contact" id="{264992fa-550b-4e4b-88be-7cf0b2564cb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="121" type="60" displayName="DEPRECATED - Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{786fa879-5a3f-4b3d-b5ee-1b5aec1164d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="122" type="60" displayName="Discipline/Organization - Main" parentDisplayName="Discipline/Organization" id="{fa2d5515-5a28-4bfa-b2c5-fa8bc2b40786}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="123" type="60" displayName="Responsible Contact - Quick Create" parentDisplayName="Responsible Contact" id="{b35fa736-59fa-4a96-925e-67d4133421f7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.1.0030.0009)" />
+        <Dependent key="124" type="60" displayName="Contact - Main" parentDisplayName="Contact" id="{8af9d012-979b-483e-962b-1c2b0d6f62e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="147" type="9" schemaName="admin_settings" displayName="Options for sales admin settings" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="147" type="9" schemaName="admin_settings" displayName="Options for sales admin settings" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="148" type="9" schemaName="admin_settings_feature" displayName="Options for sales admin settings" solution="msdynce_SalesPatch (9.0.1904.3002)" />
+        <Dependent key="148" type="9" schemaName="admin_settings_feature" displayName="Options for sales admin settings" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="139" type="9" schemaName="allocationtype" displayName="Allocation Type" solution="msdynce_ServicePatch (9.0.19111.1004)" />
+        <Dependent key="139" type="9" schemaName="allocationtype" displayName="Allocation Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="160" type="9" schemaName="bookableresourcecharacteristictype" displayName="Bookable Resource Characteristic Type" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="160" type="9" schemaName="bookableresourcecharacteristictype" displayName="Bookable Resource Characteristic Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="154" type="9" schemaName="botsharingroletypes" displayName="Chatbot sharing role type" solution="PowerVirtualAgents (1.1.2.164)" />
+        <Dependent key="154" type="9" schemaName="botsharingroletypes" displayName="Chatbot sharing role type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="144" type="9" schemaName="budgetstatus" displayName="Budget" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="144" type="9" schemaName="budgetstatus" displayName="Budget" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="162" type="9" schemaName="confirminterest" displayName="Confirm Interest" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="162" type="9" schemaName="confirminterest" displayName="Confirm Interest" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="143" type="9" schemaName="convert_campaign_response_options" displayName="Convert Campaign Response Options" solution="msdynce_MarketingSalesPatch (9.0.2009.03005)" />
+        <Dependent key="143" type="9" schemaName="convert_campaign_response_options" displayName="Convert Campaign Response Options" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="152" type="9" schemaName="convert_campaign_response_qualify_lead_options" displayName="Convert Campaign Response Qualify Lead Options" solution="msdynce_MarketingSalesPatch (9.0.2009.03005)" />
+        <Dependent key="152" type="9" schemaName="convert_campaign_response_qualify_lead_options" displayName="Convert Campaign Response Qualify Lead Options" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="141" type="9" schemaName="convert_campaign_response_to_lead_disqualify_status" displayName="Campaign response convert to lead disqualify status" solution="msdynce_MarketingSales (9.0.4.29)" />
+        <Dependent key="141" type="9" schemaName="convert_campaign_response_to_lead_disqualify_status" displayName="Campaign response convert to lead disqualify status" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="145" type="9" schemaName="convert_campaign_response_to_lead_option" displayName="Campaign response convert to lead option" solution="msdynce_MarketingSales (9.0.4.29)" />
+        <Dependent key="145" type="9" schemaName="convert_campaign_response_to_lead_option" displayName="Campaign response convert to lead option" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="155" type="9" schemaName="convert_campaign_response_to_lead_qualify_status" displayName="Campaign response convert to lead qualify status" solution="msdynce_MarketingSales (9.0.4.29)" />
+        <Dependent key="155" type="9" schemaName="convert_campaign_response_to_lead_qualify_status" displayName="Campaign response convert to lead qualify status" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="158" type="9" schemaName="decisionmaker" displayName="Decision Maker?" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="158" type="9" schemaName="decisionmaker" displayName="Decision Maker?" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="140" type="9" schemaName="entitytype" displayName="Entity Type" solution="msdynce_ServicePatch (9.0.19111.1004)" />
+        <Dependent key="140" type="9" schemaName="entitytype" displayName="Entity Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="151" type="9" schemaName="evaluatefit" displayName="Description" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="151" type="9" schemaName="evaluatefit" displayName="Description" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="159" type="9" schemaName="identifycompetitors" displayName="Identified Competitors?" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="159" type="9" schemaName="identifycompetitors" displayName="Identified Competitors?" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="157" type="9" schemaName="identifycustomercontacts" displayName="Identified Customer Contacts?" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="157" type="9" schemaName="identifycustomercontacts" displayName="Identified Customer Contacts?" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="138" type="9" schemaName="identifypursuitteam" displayName="Identified Pursuit Team?" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="138" type="9" schemaName="identifypursuitteam" displayName="Identified Pursuit Team?" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="161" type="9" schemaName="incident_caseorigincode" displayName="Case Origin" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="161" type="9" schemaName="incident_caseorigincode" displayName="Case Origin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="142" type="9" schemaName="initialcommunication" displayName="Initial Communication" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="142" type="9" schemaName="initialcommunication" displayName="Initial Communication" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="146" type="9" schemaName="msdyn_bookableresourcetype" displayName="Bookable Resource Type" solution="msdynce_SchedulingPatch (9.0.5.0)" />
+        <Dependent key="146" type="9" schemaName="msdyn_bookableresourcetype" displayName="Bookable Resource Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="153" type="9" schemaName="msdyn_upgradestatus" displayName="UpgradeStatus" solution="SolutionUpgradeInfrastructure (2.6.0.0)" />
+        <Dependent key="153" type="9" schemaName="msdyn_upgradestatus" displayName="UpgradeStatus" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="137" type="9" schemaName="need" displayName="Need" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="137" type="9" schemaName="need" displayName="Need" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="156" type="9" schemaName="purchaseprocess" displayName="Purchase Process" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="156" type="9" schemaName="purchaseprocess" displayName="Purchase Process" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="136" type="9" schemaName="purchasetimeframe" displayName="Purchase Timeframe" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="136" type="9" schemaName="purchasetimeframe" displayName="Purchase Timeframe" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="150" type="9" schemaName="quote_createrevisedquote" displayName="Create a revised quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="150" type="9" schemaName="quote_createrevisedquote" displayName="Create a revised quote" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="149" type="9" schemaName="serviceappointment_status" displayName="Status" solution="msdynce_ServicePatch201911 (9.0.20093.1069)" />
+        <Dependent key="149" type="9" schemaName="serviceappointment_status" displayName="Status" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

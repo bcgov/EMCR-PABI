@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{28920155-1862-4b42-8209-80bce3694773}" Name="Update Contact" Description="Use this task flow to quickly update contact information, including business and personal information. This flow includes information from the related account." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/UpdateContact-28920155-1862-4B42-8209-80BCE3694773.xaml</XamlFileName>
+  <ImageFileName>/EntityImages/UpdateContact-28920155-1862-4B42-8209-80BCE3694773.jpg</ImageFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>1</processorder>
+  <processroleassignment>&lt;DisplayConditions /&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>update_contact</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>8.0.0.0</IntroducedVersion>
+  <BusinessProcessType>1</BusinessProcessType>
+  <FormId>{26843818-6508-4afe-9342-5fae2ebf15ca}</FormId>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Update Contact" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Use this task flow to quickly update contact information, including business and personal information. This flow includes information from the related account." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{ac564237-b02c-4474-a2d5-f06dc0402776}" />
+    <steplabels id="{5619cf68-1293-472a-b988-f4f5bdb2f3da}" />
+    <steplabels id="{e6d92425-0d3b-41bc-a85d-8d305d99d9f3}" />
+    <steplabels id="{9c161690-7174-6a67-db6c-334230a4612c}" />
+    <steplabels id="{a11529c4-bd0a-435e-58c8-2647ad6ea8a2}" />
+    <steplabels id="{9fd7b424-7795-4623-8e90-6aa8f5f2934e}" />
+    <steplabels id="{ae849ac6-d002-873b-d947-89cc71d16d5c}" />
+    <steplabels id="{314a7e40-3da0-6cb0-40a9-64add288c619}" />
+    <steplabels id="{6f4cdfd0-2482-4a31-91c3-449349fb69e8}" />
+    <steplabels id="{02c65396-6149-b769-385d-cc34c3e7c982}" />
+    <steplabels id="{60cc3ed2-74ad-7ac3-915a-6bc70187dda4}" />
+    <steplabels id="{295c3899-b185-1506-1618-b5a4cb39206c}" />
+    <steplabels id="{9bdfc0a7-f463-41c4-b3fd-ea87750a70d5}" />
+    <steplabels id="{572541b3-4b24-22a4-dd06-804781d98de0}" />
+    <steplabels id="{224bd215-5ff6-4a29-a15c-8934550b90c8}" />
+    <steplabels id="{e5555391-9783-12c3-d3c3-c8118609a8e7}" />
+    <steplabels id="{abaaba89-ce23-e6c3-be5e-9633624039cd}" />
+    <steplabels id="{36e2bc43-1028-405b-9fb8-c3af6ba2f831}" />
+    <steplabels id="{58aa1140-4259-443d-7aac-b910dd7535e9}" />
+    <steplabels id="{959cb776-33e8-c9a1-4729-31a1311ede28}" />
+  </labels>
+</Workflow>
