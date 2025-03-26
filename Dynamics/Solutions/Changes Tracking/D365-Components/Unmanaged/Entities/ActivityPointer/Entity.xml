@@ -36,7 +36,6 @@
           </Descriptions>
         </attribute>
       </attributes>
-<<<<<<< HEAD
       <EntitySetName>activitypointers</EntitySetName>
       <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
@@ -79,8 +78,6 @@
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
       <IsSolutionAware>0</IsSolutionAware>
-=======
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
     </entity>
   </EntityInfo>
   <RibbonDiffXml />

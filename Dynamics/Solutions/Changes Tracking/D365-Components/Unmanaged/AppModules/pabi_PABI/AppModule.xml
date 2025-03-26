@@ -85,10 +85,6 @@
     <Role id="{1d08990e-91a3-ef11-b853-00505683fbf4}" />
   </AppModuleRoleMaps>
   <LocalizedNames>
-<<<<<<< HEAD
     <LocalizedName description="Contacts" languagecode="1033" />
-=======
-    <LocalizedName description="PABI" languagecode="1033" />
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
   </LocalizedNames>
 </AppModule>

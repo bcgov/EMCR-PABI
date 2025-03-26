@@ -13,7 +13,6 @@
         <Description description="" languagecode="1033" />
       </Descriptions>
       <attributes>
-<<<<<<< HEAD
         <attribute PhysicalName="CreatedBy">
           <Type>lookup</Type>
           <Name>createdby</Name>
@@ -488,8 +487,6 @@
             <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
           </Descriptions>
         </attribute>
-=======
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
         <attribute PhysicalName="pabi_247Emergency">
           <Type>bit</Type>
           <Name>pabi_247emergency</Name>
@@ -3635,7 +3632,6 @@
             <Description description="Reason for the status of the Responsible Contact in Regions and Municipalities" languagecode="1033" />
           </Descriptions>
         </attribute>
-<<<<<<< HEAD
         <attribute PhysicalName="TimeZoneRuleVersionNumber">
           <Type>int</Type>
           <Name>timezoneruleversionnumber</Name>
@@ -3714,8 +3710,6 @@
             <Description description="Time zone code that was in use when the record was created." languagecode="1033" />
           </Descriptions>
         </attribute>
-=======
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
       </attributes>
       <EntitySetName>pabi_responsiblecontactinregionsandmunicipals</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>

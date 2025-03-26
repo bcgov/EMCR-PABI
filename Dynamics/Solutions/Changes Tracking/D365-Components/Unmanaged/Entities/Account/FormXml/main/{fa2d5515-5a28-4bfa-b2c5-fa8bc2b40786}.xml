@@ -156,11 +156,7 @@
                   </labels>
                   <rows>
                     <row>
-<<<<<<< HEAD
                       <cell id="{8b1d7a7a-972c-78c1-d287-82ec5b33d167}" showlabel="false" colspan="2" auto="false" rowspan="13" labelid="{d18348ef-b00e-4bc8-bc84-531fdf6bd958}">
-=======
-                      <cell id="{8b1d7a7a-972c-78c1-d287-82ec5b33d167}" showlabel="false" colspan="2" auto="false" rowspan="12" labelid="{d18348ef-b00e-4bc8-bc84-531fdf6bd958}">
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
                         <labels>
                           <label description="Contacts In Discipline" languagecode="1033" />
                         </labels>
@@ -174,11 +170,7 @@
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
                             <ViewIds>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
-<<<<<<< HEAD
                             <EnableJumpBar>true</EnableJumpBar>
-=======
-                            <EnableJumpBar>false</EnableJumpBar>
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
                             <ChartGridMode>Grid</ChartGridMode>
                             <VisualizationId />
                             <IsUserChart>false</IsUserChart>
@@ -200,10 +192,7 @@
                     <row />
                     <row />
                     <row />
-<<<<<<< HEAD
                     <row />
-=======
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
                   </rows>
                 </section>
                 <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="110" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{f36a5430-2e4e-4dca-838a-5d82719fa1a9}">
@@ -1152,11 +1141,7 @@
               <EnableQuickFind>false</EnableQuickFind>
               <EnableViewPicker>false</EnableViewPicker>
               <ViewIds>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
-<<<<<<< HEAD
               <EnableJumpBar>true</EnableJumpBar>
-=======
-              <EnableJumpBar>false</EnableJumpBar>
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
               <ChartGridMode>Grid</ChartGridMode>
               <VisualizationId />
               <IsUserChart>false</IsUserChart>
@@ -1175,11 +1160,7 @@
               <EnableQuickFind>false</EnableQuickFind>
               <EnableViewPicker>false</EnableViewPicker>
               <ViewIds>{796AE9E7-E1A1-EF11-B853-00505683FBF4}</ViewIds>
-<<<<<<< HEAD
               <EnableJumpBar>true</EnableJumpBar>
-=======
-              <EnableJumpBar>false</EnableJumpBar>
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
               <ChartGridMode>Grid</ChartGridMode>
               <VisualizationId />
               <IsUserChart>false</IsUserChart>
@@ -1236,12 +1217,7 @@
         </event>
       </events>
       <DisplayConditions FallbackForm="true" Order="6">
-<<<<<<< HEAD
         <Everyone />
-=======
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
       </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>

@@ -38,9 +38,6 @@
       </attributes>
     </entity>
   </EntityInfo>
-<<<<<<< HEAD
   <FormXml />
-=======
->>>>>>> 775380e48679c6f1c96b0215f859ed62a86bbd5b
   <RibbonDiffXml />
 </Entity>

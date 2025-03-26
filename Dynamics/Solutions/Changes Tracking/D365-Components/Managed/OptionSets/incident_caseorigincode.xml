@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="incident_caseorigincode" localizedName="Case Origin" description="Information that specifies the source of the case information, such as Web, telephone, or email." unmodified="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></optionset>
